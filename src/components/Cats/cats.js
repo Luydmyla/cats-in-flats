@@ -2,7 +2,7 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47b",
     title: "Барбарис",
-    imgUrl: "../../../public/img/picture-3.jpg",
+    imgUrl: "/img/picture-3.jpg",
     descr: "  Хижий для ворогів, ласкавий та м’якесенький до своїх.",
     rating: 3,
     price: 1667,
@@ -18,7 +18,7 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47d",
     title: "Мишка",
-    imgUrl: "../../../../cats-in-flats/public/img/picture-1.jpg",
+    imgUrl: "/cats-in-flats/public/img/picture-1.jpg",
     descr: " Киця з роду котів-талісманів. Несе удачу та затишок в дім.",
     rating: 3,
     price: 2740,
@@ -34,7 +34,7 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f48a",
     title: "Капітан",
-    imgUrl: "../../../public/img/picture-2.jpg",
+    imgUrl: "/public/img/picture-2.jpg",
     descr: " Всюди головний. Підкорить тебе, але ти будеш щасливий.",
     rating: 1,
     price: 2153,
