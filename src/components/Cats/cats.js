@@ -18,7 +18,7 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47d",
     title: "Мишка",
-    imgUrl: "../../../public/img/picture-1.jpg",
+    imgUrl: "../../../../cats-in-flats/public/img/picture-1.jpg",
     descr: " Киця з роду котів-талісманів. Несе удачу та затишок в дім.",
     rating: 3,
     price: 2740,
