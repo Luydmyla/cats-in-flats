@@ -4,6 +4,9 @@
 import AppFooter from "./components/Footer.vue";
 import AppHeader from "./components/Header.vue";
 import HeroItem from "./components/Hero/HeroItem.vue";
+import CatsItem from "./components/Cats/CatsItem.vue";
+import CatsList from "./components/Cats/CatsList.vue";
+import cats from "./components/Cats/cats.js" 
 
 </script>
 
@@ -14,6 +17,11 @@ import HeroItem from "./components/Hero/HeroItem.vue";
       <!-- <router-view></router-view> -->
 <HeroItem title="Привіт, людино" text="Бракує в житті шовкових лапок, м’якенького пухнастого
                   животика, теплого муррркотіння й веселого розгардіяшу?"/>
+<CatsList :items="cats" />
+  <!-- <template v-slot:cat="{ cat }">
+  </template> -->
+
+  <!-- <CatsItem/> -->
   </div>
    <AppFooter />
    </div>
