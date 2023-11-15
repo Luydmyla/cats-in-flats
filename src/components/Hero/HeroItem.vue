@@ -48,7 +48,7 @@
         background-color: #7EA6A7;
         background: url(../../assets/img/picture1.png) center no-repeat ;
         /* background-repeat: no-repeat; */
-        /* background-size: contain; */
+        background-size: cover;
         margin-bottom: 60px;
         border-radius: 16px;
  }
