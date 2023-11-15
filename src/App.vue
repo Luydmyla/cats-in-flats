@@ -3,6 +3,7 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import AppFooter from "./components/Footer.vue";
 import AppHeader from "./components/Header.vue";
+import HeroItem from "./components/Hero/HeroItem.vue";
 
 </script>
 
@@ -11,6 +12,8 @@ import AppHeader from "./components/Header.vue";
   <div class="content">
    <AppHeader />
       <!-- <router-view></router-view> -->
+<HeroItem title="Привіт, людино" text="Бракує в житті шовкових лапок, м’якенького пухнастого
+                  животика, теплого муррркотіння й веселого розгардіяшу?"/>
   </div>
    <AppFooter />
    </div>
