@@ -34,6 +34,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    background-color: #fff;
 }
 .logo{
     display: flex;

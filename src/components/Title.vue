@@ -26,7 +26,7 @@
                 /* 166.667% */
                 letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
-                  background-color: #e7ecf2;
+                  background-color:#c8b69e
                  /* color: red */
        
             }

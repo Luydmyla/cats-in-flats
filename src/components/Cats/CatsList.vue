@@ -6,7 +6,7 @@
     <div class="cats-list">
    
         <CatsItem v-for="{id, descr, title, imgUrl } in items"
-         :key="id"
+          :key="id"
             :descr="descr"
             :title="title"
             :imgSrc="imgUrl"
@@ -43,5 +43,6 @@ import Title from "../Title.vue";
                 justify-content: space-between;
                 gap: 40px;
                 margin-top: 40px;
+                margin-bottom: 60px;
             }
 </style>

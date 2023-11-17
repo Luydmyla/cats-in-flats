@@ -3,10 +3,14 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import AppFooter from "./components/Footer.vue";
 import AppHeader from "./components/Header.vue";
+import Container from "./components/shared/Container.vue";
 import HeroItem from "./components/Hero/HeroItem.vue";
 // import CatsItem from "./components/Cats/CatsItem.vue";
+import Title from "./components/Title.vue";
 import CatsList from "./components/Cats/CatsList.vue";
+import GalleryList from "./components/Gallery/GalleryList.vue";
 import cats from "./components/Cats/cats.js" 
+import gallery from "./components/Gallery/gallery";
 
 </script>
 
@@ -15,13 +19,19 @@ import cats from "./components/Cats/cats.js"
   <div class="content">
    <AppHeader />
       <!-- <router-view></router-view> -->
-<HeroItem title="Привіт, людино" text="Бракує в житті шовкових лапок, м’якенького пухнастого
+
+      <HeroItem title="Привіт, людино" text="Бракує в житті шовкових лапок, м’якенького пухнастого
                   животика, теплого муррркотіння й веселого розгардіяшу?"/>
-<CatsList :items="cats" />
-  <!-- <template v-slot:cat="{ cat }">
+      <!-- <Container> -->
+        <!-- <Title  text=" Ці друзяки готові приймати твою любов і піклування"></Title> -->
+     <CatsList :items="cats" />
+     <GalleryList :items="gallery"/>
+    <!-- <template v-slot:cat="{ cat }">
   </template> -->
 
-  <!-- <CatsItem/> -->
+      <!-- </Container> -->
+
+
   </div>
    <AppFooter />
    </div>
@@ -34,7 +44,7 @@ import cats from "./components/Cats/cats.js"
   flex-direction: column;
   min-height: 100vh;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
-   background: url(./assets/img/fon3.png) center no-repeat ;
+   background: url(./assets/img/fon3.png) center repeat-y ;
    
 }
 .content {

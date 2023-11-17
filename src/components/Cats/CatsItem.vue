@@ -32,10 +32,10 @@ import Container from "../shared/Container.vue";
             Container,
     },
         props: {
-        id: {
-            type: String,
-            required: true,
-        },
+        // id: {
+        //     type: String,
+        //     required: true,
+        // },
         descr: {
             type: String,
             default: "",
