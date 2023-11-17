@@ -8,14 +8,16 @@
                           Хижий для ворогів, ласкавий та м’якесенький до своїх.
                         </p>
                       </div> -->
-                       <img :src="imgSrc" :alt="title" />
-                          <div class="item-footer">
+                      <div class="img-wrap">
+                             <img :src="imgSrc" :alt="title" />
+                      </div>
+                      <div class="item-footer">
                             <h3 class="item-title">{{title}}</h3>
                             <p class="item-descr">
                               {{ descr }}
                             </p>
-                          </div>
-                    </div>
+                      </div>
+    </div>
 
 
 </Container>
@@ -60,7 +62,8 @@ import Container from "../shared/Container.vue";
 
 <style lang="scss" scoped>
 .cat-item{
-                flex-basis: calc((100% - 80px) / 3);
+                /* flex-basis: calc((100% - 80px) / 3); */
+                  /* width: calc((100% - 80px) / 3); */
                 /* height: 360px; */
                 margin-bottom: 8px;
                 overflow: hidden;
@@ -79,10 +82,18 @@ import Container from "../shared/Container.vue";
       rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
       rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
-                               
+}
 
-            }
-            .cat-item > img{
+.img-wrap{
+width: 100%;
+display: flex;
+overflow: hidden;
+  height: 80%;
+}
+            .img-wrap > img{
+                width: 100%;
+              
+                /* height: 100%; */
 object-fit:cover;
                         }
                        

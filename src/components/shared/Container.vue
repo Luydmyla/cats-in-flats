@@ -12,7 +12,8 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-width: 960px;
+    display: flex;
+/* width: 960px; */
     padding-left: 8px;
     padding-right: 8px;
     margin-left: auto;

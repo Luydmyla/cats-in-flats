@@ -1,7 +1,10 @@
 <template>
-   <Container>
+   <!-- <Container> -->
+  
     <slot name="title"></slot>
+       <Title  text=" Ці друзяки готові приймати твою любов і піклування"></Title>
     <div class="cats-list">
+   
         <CatsItem v-for="{id, descr, title, imgUrl } in items"
          :key="id"
             :descr="descr"
@@ -12,16 +15,17 @@
             <slot name="cat" v-bind:cat="cat"></slot>
           </template> -->
         </div>
-   </Container>
+   <!-- </Container> -->
 </template>
 
 <script>
 import Container from "../shared/Container.vue";
 import CatsItem from "./CatsItem.vue";
+import Title from "../Title.vue";
 
     export default {
        name: "CatsList",
-    components: { Container, CatsItem, CatsItem },
+    components: { Container, CatsItem, Title },
 
     props: {
         items: {

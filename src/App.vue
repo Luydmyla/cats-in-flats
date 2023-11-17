@@ -4,7 +4,7 @@
 import AppFooter from "./components/Footer.vue";
 import AppHeader from "./components/Header.vue";
 import HeroItem from "./components/Hero/HeroItem.vue";
-import CatsItem from "./components/Cats/CatsItem.vue";
+// import CatsItem from "./components/Cats/CatsItem.vue";
 import CatsList from "./components/Cats/CatsList.vue";
 import cats from "./components/Cats/cats.js" 
 
