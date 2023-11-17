@@ -34,9 +34,12 @@ import cats from "./components/Cats/cats.js"
   flex-direction: column;
   min-height: 100vh;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
+   background: url(./assets/img/fon3.png) center no-repeat ;
+   
 }
 .content {
   flex-grow: 1;
+ 
   /* padding-top: 120px; */
 }
 /* header {

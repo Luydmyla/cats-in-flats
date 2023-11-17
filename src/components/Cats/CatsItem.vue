@@ -8,9 +8,6 @@
                           Хижий для ворогів, ласкавий та м’якесенький до своїх.
                         </p>
                       </div> -->
-
-
-
                        <img :src="imgSrc" :alt="title" />
                           <div class="item-footer">
                             <h3 class="item-title">{{title}}</h3>
@@ -69,8 +66,21 @@ import Container from "../shared/Container.vue";
                 overflow: hidden;
                 border-top-right-radius: 16px;
                 border-top-left-radius: 16px;
-               
-                /* background-color: blueviolet; */
+                   box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
+                /* background-color: #d3d4c6; */
+                background-color: #e7ecf2;
+                transition: 500ms linear;
+  &:hover,
+  &:focus {
+    transform: scale(1.08);
+    transform-origin: center;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+                               
+
             }
             .cat-item > img{
 object-fit:cover;
