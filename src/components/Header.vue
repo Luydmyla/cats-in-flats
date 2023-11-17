@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    background-color: #fff;
+     background-color: #e7ecf2;
 }
 .logo{
     display: flex;

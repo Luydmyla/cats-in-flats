@@ -76,18 +76,21 @@ export default {
 
 .footer {
     /* background: $secondary-color; */
-     background:blue;
+       background-color:#c8b69e;
     /* height: 30px; */
     padding-top: 48px;
         padding-bottom: 48px;
     /* background: var(--FOREST-GREEN, #0F3F3C); */
 }
 .footer-container{
-   
+   width: 100%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 .footer-logo{
 display: flex;
