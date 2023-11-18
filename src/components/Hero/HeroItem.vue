@@ -39,24 +39,29 @@
 
 <style lang="scss" scoped>
 .hero-item{
-    position: relative;
+    display: flex;
+    /* position: relative; */
     /* width: 944px; */
-        height: 480px;
+        /* height: 480px; */
+         height: 60vh;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         background-color: #7EA6A7;
-        background: url(../../assets/img/picture1.png) center no-repeat ;
+        background: url(../../../public/img/hero2.png)  no-repeat ;
+        background-position: top;
+          /* background: url(../../../public//img/8-29CQ5tmymwbEv2W.png) center no-repeat ; */
         /* background-repeat: no-repeat; */
         background-size: cover;
+        /* background-size: contain; */
         margin-bottom: 60px;
         border-radius: 16px;
  }
 .greeting{
-    position: absolute;
-    top: 236px;
+    /* position: absolute; */
+    /* top: 136px; */
    /* bottom: 28px; */
-    left: 28px;
+    /* left: 28px; */
   
     display: inline-flex;
         padding: 24px;
@@ -67,9 +72,11 @@
         margin-bottom: 0;
         /* height: 216px; */
         border-radius: 16px;
-            background: var(--FOREST-GREEN, #0F3F3C);
 
-color: var(--WHITE, #FFF);
+       background-color:  #fdcd7e;
+            /* background: var(--FOREST-GREEN, #0F3F3C); */
+/* color: var(--WHITE, #FFF); */
+
     /* Header 1 */
     font-family: Montserrat;
     font-size: 32px;
@@ -80,10 +87,11 @@ color: var(--WHITE, #FFF);
     letter-spacing: 1.25px;
         }
  .greeting-text{
-        color: var(--WHITE, #FFF);
-            /* Body */
+    color: #33665b;
+        /* color: var(--WHITE, #FFF); */
+           
             font-family: Montserrat;
-            font-size: 16px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 400;
             line-height: 24px;
@@ -97,7 +105,8 @@ color: var(--WHITE, #FFF);
                 height: 40px;
                 flex-direction: column;
                 justify-content: center;
-                color: var(--WHITE, #FFF);
+                color: #33665b;
+                /* color: var(--WHITE, #FFF); */
                 /* Header 1 */
                 font-family: Montserrat;
                 font-size: 32px;

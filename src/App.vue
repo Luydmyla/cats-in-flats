@@ -11,6 +11,8 @@ import CatsList from "./components/Cats/CatsList.vue";
 import GalleryList from "./components/Gallery/GalleryList.vue";
 import cats from "./components/Cats/cats.js" 
 import gallery from "./components/Gallery/gallery";
+// import SimpleLightbox from "simplelightbox/dist / simple - lightbox.esm";
+// import css from "../../../node_modules/simplelightbox/dist/simple-lightbox.css";
 
 </script>
 
@@ -20,7 +22,7 @@ import gallery from "./components/Gallery/gallery";
    <AppHeader />
       <!-- <router-view></router-view> -->
 
-      <HeroItem title="Привіт, людино" text="Бракує в житті шовкових лапок, м’якенького пухнастого
+      <HeroItem title="Привіт, людино!" text="Бракує в житті шовкових лапок, м’якенького пухнастого
                   животика, теплого муррркотіння й веселого розгардіяшу?"/>
       <!-- <Container> -->
         <!-- <Title  text=" Ці друзяки готові приймати твою любов і піклування"></Title> -->

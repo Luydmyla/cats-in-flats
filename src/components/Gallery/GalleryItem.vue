@@ -1,5 +1,5 @@
 <template>
-    <div class="item">
+    <div class="item" >
         <a :href="imgHref">
                  <img :src="imgSrc" />
             </a>     
@@ -10,8 +10,23 @@
 </template>
 
 <script>
+{/* <include src="../../../node_modules/simplelightbox/dist/simple-lightbox.css"></include>;
+<include src="../../../node_modules/simplelightbox/dist/simple-lightbox.js"></include>; */}
+
+// let galleryShow = new SimpleLightbox('.item a', {
+//   captionsData: 'alt',
+//   captionPosition: 'bottom',
+//   captionDelay: 250,
+// })
+
+
+
+
     export default {
     name: "GalleryItem", 
+    // components: {
+    //     SimpleLightbox
+    // },
     props: {
         imgHref: {
              type: String,
@@ -26,6 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
+
  .item{
     width: 100%;
       height: 80%;

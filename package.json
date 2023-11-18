@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "modern-normalize": "^2.0.0",
+    "simplelightbox": "^2.14.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {

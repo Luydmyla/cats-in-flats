@@ -17,6 +17,7 @@
 import Title from '../Title.vue';
 import GalleryText from './GalleryText.vue';
 import GalleryItem from "./GalleryItem.vue"
+
 export default {
   name: "GalleryList",
    components: {
