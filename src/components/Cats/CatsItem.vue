@@ -1,5 +1,5 @@
 <template>   
-<Container>
+<!-- <Container> -->
     <div class="cat-item">
                       <!-- <img src="../../assets/img/picture.jpg" alt="cat Барбарис" />
                       <div class="item-footer">
@@ -20,7 +20,7 @@
     </div>
 
 
-</Container>
+<!-- </Container> -->
     
 </template>
 

@@ -18,10 +18,11 @@
 @media (min-width: 280px) {
     .section-title{
             font-family: Montserrat;
-                font-size: 24px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 24px;
+                line-height: 20px;
+                    text-align: center;
                 width: 100%;
                 height: 100%;
                 letter-spacing: 0.5px;
@@ -37,6 +38,7 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 40px;
+                    text-align: center;
                 width: 100%;
                 height: 100%;
                 letter-spacing: 0.5px;

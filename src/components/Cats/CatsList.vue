@@ -37,17 +37,29 @@ import Title from "../Title.vue";
 </script>
 
 <style lang="scss" scoped>
-/* @media (min-width: 280px) {} */
+@media (min-width: 280px) {
+  .cats-list{
+                width: 100%;
+                /* display: flex; */
+                justify-content: space-between;
+                /* gap: 40px; */
+                margin-top: 10px;
+                margin-bottom: 10px;
+                  padding-left: 8px;
+    padding-right: 8px;
+            }
+}
 /* @media (min-width: 768px) {} */
-/* @media (min-width: 1024px) {} */
-
-
-.cats-list{
+@media (min-width: 1024px) {
+  .cats-list{
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 gap: 40px;
                 margin-top: 40px;
                 margin-bottom: 60px;
+                  padding-left: 8px;
+    padding-right: 8px;
             }
+}
 </style>
