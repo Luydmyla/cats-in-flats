@@ -72,6 +72,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+/* @media (min-width: 280px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+
+
 /* @import "../assets/scss/variables.scss"; */
 
 .footer {

@@ -61,6 +61,11 @@ import Container from "../shared/Container.vue";
 </script>
 
 <style lang="scss" scoped>
+/* @media (min-width: 280px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+
+
 .cat-item{
                 /* flex-basis: calc((100% - 80px) / 3); */
                   /* width: calc((100% - 80px) / 3); */

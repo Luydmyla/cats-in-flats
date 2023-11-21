@@ -37,6 +37,11 @@ import Title from "../Title.vue";
 </script>
 
 <style lang="scss" scoped>
+/* @media (min-width: 280px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+
+
 .cats-list{
                 width: 100%;
                 display: flex;

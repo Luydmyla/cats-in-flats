@@ -38,6 +38,12 @@
 </script>
 
 <style lang="scss" scoped>
+/* @media (min-width: 280px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+
+
+
 .hero-item{
     display: flex;
     /* position: relative; */

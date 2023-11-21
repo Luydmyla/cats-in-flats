@@ -15,6 +15,10 @@
 </script>
 
 <style lang="scss" scoped>
+/* @media (min-width: 280px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+
  .section-title{
             font-family: Montserrat;
                 font-size: 24px;
