@@ -36,10 +36,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/* @media (min-width: 280px) {} */
+@media (min-width: 280px) {
+  .galllery{
+    width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                gap: 10px;
+                /* padding: 10px; */
+            }
+}
 /* @media (min-width: 768px) {} */
-/* @media (min-width: 1024px) {} */
-
+@media (min-width: 1024px) {
 .galllery{
     width: 100%;
                 display: flex;
@@ -48,4 +57,9 @@ export default {
                 margin-bottom: 60px;
                 gap: 16px;
             }
+
+
+}
+
+
 </style>

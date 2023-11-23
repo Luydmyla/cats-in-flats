@@ -26,14 +26,35 @@ textAfter: {
 </script>
 
 <style lang="scss" scoped>
-/* @media (min-width: 280px) {} */
-/* @media (min-width: 768px) {} */
-/* @media (min-width: 1024px) {} */
-
+@media (min-width: 280px) {
 .section-text{
-                /* width: 604px; */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 150% */
+    letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
                 margin-top: 8px;
                 background-color: #e7ecf2;
+                padding: 8px;
             }
+}
+/* @media (min-width: 768px) {} */
+@media (min-width: 1024px) {
+.section-text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+    color: var(--GREY, #2C2C2C);
+    margin-top: 8px;
+    background-color: #e7ecf2;
+    padding: 10px;
+            }
+}
 </style>

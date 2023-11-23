@@ -8,20 +8,23 @@
               <h2 class="logo-title">Котодім</h2>
             </a>
           </div>
-          <nav class="nav">
+          <!-- <nav class="nav">
             <a href="">Обрати котика</a>
             <a href="">Задонатити котикам</a>
             <a href="">Контакти</a>
-          </nav>
+          </nav> -->
+          <NavList />
         </header>
 </template>
 
 <script>
 import Logo from "./Logo.vue";
+import NavList from "./Navigation/NavList.vue";
     export default {
     name: "Header", 
       components: {
-        Logo,
+          Logo,
+        NavList,
     },   
     }
 </script>
@@ -62,12 +65,11 @@ font-family: Montserrat;
     letter-spacing: 0.5px;
     color: var(--ORANGE, #F07F2E);
 }
-.nav{
-    /* display: flex; */
+/* .nav{
+  
         align-items: center;
             align-content: center;
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
+    
     color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
         font-size: 14px;
@@ -75,16 +77,16 @@ font-family: Montserrat;
         font-weight: 700;
         line-height: 14px;
         letter-spacing: 0.5px;
-}
-.nav a{
+} */
+/* .nav a{
     display: flex;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-        flex-basis: calc((100% - 8px) / 3);
-    /* width: calc((100%-8px)/3); */
-}
+    flex-basis: calc((100% - 8px) / 3);
+   
+} */
 }
 /* @media (min-width: 768px) {} */
 @media (min-width: 1024px) {
@@ -124,12 +126,11 @@ font-family: Montserrat;
     letter-spacing: 0.5px;
     color: var(--ORANGE, #F07F2E);
 }
-.nav{
-    display: flex;
+/* .nav{
+        display: flex;
         align-items: flex-start;
         gap: 40px;
-    color: var(--GREY, #2C2C2C);
-
+        color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
         font-size: 16px;
         font-style: normal;
@@ -137,7 +138,7 @@ font-family: Montserrat;
         line-height: 24px;
        
         letter-spacing: 0.5px;
-}
+} */
 
 
 

@@ -1,0 +1,65 @@
+<template>
+   <nav class="nav">
+                <!-- <a href="">Обрати котика</a>
+                <a href="">Задонатити котикам</a>
+                <a href="">Контакти</a> -->
+<NavItem text="Обрати котика"></NavItem>
+    <NavItem text="Задонатити котикам "></NavItem>
+    <NavItem text=" Контакти "></NavItem>
+
+              </nav>
+</template>
+
+<script>
+import NavItem from './NavItem.vue';
+export default {
+    name: "NavList",
+    components: {
+            NavItem,
+        }
+        
+    }
+</script>
+
+<style lang="scss" scoped>
+@media (min-width: 280px) {
+.nav{
+    /* display: flex; */
+        align-items: center;
+            align-content: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    color: var(--GREY, #2C2C2C);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+}
+/* .nav a{
+    display: flex;
+        flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+        flex-basis: calc((100% - 8px) / 3);
+   
+} */
+@media (min-width: 1024px) {
+    .nav{
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        color: var(--GREY, #2C2C2C);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;  
+        letter-spacing: 0.5px;
+}
+}
+}
+
+</style>
