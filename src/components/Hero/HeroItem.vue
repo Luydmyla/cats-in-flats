@@ -54,7 +54,9 @@
         align-items: end;
         flex-shrink: 0;
         background-color: #7EA6A7;
-        background: url(../../../public/img/hero2.png)  no-repeat ;
+        /* background: url(../../../public/img/hero2.png)  no-repeat ; */
+              background: url(/public/img/hero2.png)  no-repeat ;
+          /* background: url(/img/hero2.png)  no-repeat ; */
         /* background-position: top; */
         background-size: cover;
         /* background-size: contain; */
