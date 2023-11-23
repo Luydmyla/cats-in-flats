@@ -3,8 +3,10 @@
         <Container>
             
           <div class="footer-container container">
-            <div class="footer-logo">
-              <div class="logo-img">
+          
+              <div class="footer-logo">
+                  <Logo></Logo>          
+              <!-- <div class="logo-img">
                 <a href="/" class="logo">
                   <img
                     src="../../src/assets/img/cat.svg"
@@ -13,7 +15,7 @@
                     height="24"
                   />
                 </a>
-              </div>
+              </div> -->
               <p class="footer-text">
                 Котики — то щастя.<br />Забирай, люби й ставай щасливішим.
               </p>
@@ -61,12 +63,12 @@
 
 <script>
 import Container from "./shared/Container.vue";
-// import Logo from "./Logo.vue";
+import Logo from "./Logo.vue";
 export default {
     name: "Footer",
     components: {
         Container,
-        // Logo,
+        Logo,
     },
 };
 </script>

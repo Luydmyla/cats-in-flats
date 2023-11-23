@@ -1,9 +1,10 @@
 <template>
      <header class="container header">
+      
           <div>
             <a href="/" class="logo">
-              <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" />
-
+              <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
+      <Logo></Logo>
               <h2 class="logo-title">Котодім</h2>
             </a>
           </div>
@@ -16,8 +17,12 @@
 </template>
 
 <script>
+import Logo from "./Logo.vue";
     export default {
-        
+    name: "Header", 
+      components: {
+        Logo,
+    },   
     }
 </script>
 
