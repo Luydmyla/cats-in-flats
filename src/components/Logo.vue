@@ -2,12 +2,20 @@
        
                   <div class="logo-wrap">
                     <a href="/" class="logo-src">
-                      <img
+                      <!-- <img
                         src="../../src/assets/img/cat.svg"
                         class="logo-img"
                         width="24"
                         height="24"
-                      />
+                      /> -->
+                      <img
+                          src="../../src/assets/img/catIcon.svg"
+                          class="logo-img"
+                          width="48"
+                          height="48"
+                          fill="orange"
+                          :class="icon"
+                        />
                     </a>
                   </div>
                   
@@ -28,6 +36,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.logo-wrap{
+  display: flex;
+  color: yellow;
+}
 /* .logo{
 display: flex;
     flex-direction: column;

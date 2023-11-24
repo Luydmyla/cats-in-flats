@@ -162,9 +162,8 @@
         margin-bottom: 0;
         /* height: 216px; */
         border-radius: 16px;
-       background-color:  #fdcd7e;
-            /* background: var(--FOREST-GREEN, #0F3F3C); */
-/* color: var(--WHITE, #FFF); */
+        background-color: rgb(253,205,126, 0.75);
+       /* background-color:  #fdcd7e; */
     font-family: Montserrat;
     font-size: 32px;
     font-style: normal;

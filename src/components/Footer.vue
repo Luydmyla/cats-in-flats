@@ -1,57 +1,16 @@
 <template>
     <footer class="footer">
-        <Container>
-            
+        <Container>     
           <div class="footer-container container">
-          
               <div class="footer-logo">
-                  <Logo></Logo>          
-              <!-- <div class="logo-img">
-                <a href="/" class="logo">
-                  <img
-                    src="../../src/assets/img/cat.svg"
-                    class="logo-img"
-                    width="24"
-                    height="24"
-                  />
-                </a>
-              </div> -->
+                  <Logo/>          
               <p class="footer-text">
                 Котики — то щастя.<br />Забирай, люби й ставай щасливішим.
               </p>
             </div>
             <section class="social">
               <p class="social-text">Соцмережі</p>
-              <ul class="social-links">
-                <li class="social-item">
-                  <a href="">
-                    <svg>
-                      <use href="../../src/assets/img/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="">
-                    <svg>
-                      <use href="../../src/assets/img/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="">
-                    <svg>
-                      <use href="../../src/assets/img/icons.svg#icon-youtube"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="">
-                    <svg>
-                      <use href="../../src/assets/img/icons.svg#icon-tiktok"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <SocialList/>
             </section>
           </div>
       <!-- <router-link to="/cats-flats"> -->
@@ -64,11 +23,13 @@
 <script>
 import Container from "./shared/Container.vue";
 import Logo from "./Logo.vue";
+import SocialList from "./Social/SocialList.vue";
 export default {
     name: "Footer",
     components: {
         Container,
         Logo,
+        SocialList,
     },
 };
 </script>
@@ -76,93 +37,55 @@ export default {
 <style lang="scss" scoped>
 @media (min-width: 280px) {
   .footer {
-       background-color:#c8b69e;
-       padding-top: 4px;
-        padding-bottom: 4px;
+      background-color:#c8b69e;
+      padding-top: 4px;
+      padding-bottom: 4px;
 }
 .footer-container{
-   width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 8px;
-    padding-right: 8px;
-
 }
 .footer-logo{
-display: flex;
-    /* width: 344px; */
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* gap: 8px; */
-    /* flex-shrink: 0; */
 }
 .footer-text{
-color: var(--WHITE, #FFF);
+    color: var(--WHITE, #FFF);
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    /* 150% */
     letter-spacing: 0.5px;
 }
 
 .social  { 
     margin-bottom: 0;
-/* display: flex; */
-    /* flex-direction: column;
-    align-items: flex-end; */
-    /* gap: 8px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
  }
-
         .social-text{
-color: var(--WHITE, #FFF);
-    /* Body */
+    color: var(--WHITE, #FFF);
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    /* 150% */
     letter-spacing: 0.5px;
     text-align: right;
-        }
-        .social-links{
-            /* width: 100%; */
-            /* gap: 32px; */
-            display: flex;
-            gap: 8px;
-            /* justify-content: space-between;
-            align-items: center;
-            text-align: center; */
-        }
-        /* .social-item {
-          display: flex;
-          justify-content: center;
-          gap: 8px;
-        }  */
-        
-        .social-item a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-}
-        .social-item svg {
-                    width: 16px;
-                        height: 16px;
-                        fill: #ffffff;
-                }
+        }       
 }
 /* @media (min-width: 768px) {} */
 @media (min-width: 1024px) {
   .footer {
-       background-color:#c8b69e;
+    background-color:#c8b69e;
     padding-top: 48px;
-        padding-bottom: 48px;
+    padding-bottom: 48px;
 }
 .footer-container{
    width: 100%;
@@ -184,66 +107,29 @@ display: flex;
 .footer-text{
 color: var(--WHITE, #FFF);
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.5px;
 }
 
 .social  { 
     margin-bottom: 0;
-/* display: flex; */
-    /* flex-direction: column;
-    align-items: flex-end; */
-    /* gap: 8px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
  }
-
         .social-text{
-color: var(--WHITE, #FFF);
-    /* Body */
+    color: var(--WHITE, #FFF);
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.5px;
     text-align: right;
-        }
-        .social-links{
-            /* width: 100%; */
-            /* gap: 32px; */
-            display: flex;
-            gap: 8px;
-            /* justify-content: space-between;
-            align-items: center;
-            text-align: center; */
-        }
-        /* .social-item {
-          display: flex;
-          justify-content: center;
-          gap: 8px;
-        }  */
-        
-        .social-item a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
+        }     
 }
-        .social-item svg {
-                    width: 16px;
-                        height: 16px;
-                        fill: #ffffff;
-                }
-}
-
-
-/* @import "../assets/scss/variables.scss"; */
-
-
 </style>

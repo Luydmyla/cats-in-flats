@@ -32,10 +32,11 @@ export default {
     color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
         font-size: 14px;
-        font-style: normal;
+        /* font-style: normal; */
         font-weight: 700;
         line-height: 14px;
         letter-spacing: 0.5px;
+        padding: 8px;
 }
 /* .nav a{
     display: flex;
@@ -53,11 +54,12 @@ export default {
         gap: 40px;
         color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
+        font-size: 24px;
+        /* font-style: normal; */
         font-weight: 700;
         line-height: 24px;  
         letter-spacing: 0.5px;
+         padding: 16px;
 }
 }
 }
