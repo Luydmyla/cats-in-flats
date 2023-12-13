@@ -1,7 +1,7 @@
 <template>
     <slot name="title"></slot>
-                <Title  text="Котики, які вже знайшли сім’ю"></Title>
-                <GalleryText textPre="Ти тільки поглянь, скільки ніжності!" textAfter="На місці цих задоволених людей можеш бути ти."></GalleryText>
+                <Title  text="Щасливі котики, які вже знайшли свій дім"></Title>
+                <GalleryText textPre="Скільки ніжності в цих обіймах, поглянь!" textAfter="Ти також можеш бути на місці цих щасливих людей"></GalleryText>
               <div class="galllery">
                 <GalleryItem  v-for="{ id, imgUrl, imgUrlBig } in items"
             :key="id"

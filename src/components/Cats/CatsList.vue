@@ -2,7 +2,7 @@
    <!-- <Container> -->
   
     <slot name="title"></slot>
-       <Title  text=" Ці друзяки готові приймати твою любов і піклування"></Title>
+       <Title  text=" Ці маленькі пухнасті комочки щастя готові подарувати радість в твоїй оселі та прийняти твою любов і піклування"></Title>
     <div class="cats-list">
    
         <CatsItem v-for="{id, descr, title, imgUrl } in items"
