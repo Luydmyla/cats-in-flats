@@ -8,12 +8,12 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/cats-in-flats",
+    path: "/",
     component: HomePage,
     name: "homepage",
   },
   {
-    path: "/cats-in-flats/cats",
+    path: "/cats",
     component: Cats,
     name: "cats",
   },
