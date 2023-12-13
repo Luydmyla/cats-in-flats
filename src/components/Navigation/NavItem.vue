@@ -1,7 +1,5 @@
 <template>
-    <!-- <div class="link"> -->
                 <a href="">{{text}}</a>
-              <!-- </div> -->
 </template>
 
 <script>
@@ -27,7 +25,6 @@ a{
     justify-content: center;
     align-items: center;
     flex-basis: calc((100% - 8px) / 3);
-    /* width: calc((100%-8px)/3); */
 }
 }
 @media (min-width: 1024px) {
@@ -38,7 +35,9 @@ a{
     justify-content: center;
     align-items: center;
     flex-basis: fit-content;
-    /* width: 100%; */
+    font-size: 26px;
+    font-weight:bold;
+    color: #2b21f9;
 }  
 } 
 </style>

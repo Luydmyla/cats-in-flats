@@ -45,8 +45,6 @@ import Title from "../Title.vue";
                 /* gap: 40px; */
                 margin-top: 10px;
                 margin-bottom: 10px;
-                  /* padding-left: 8px; */
-    /* padding-right: 8px; */
             }
 }
 /* @media (min-width: 768px) {} */

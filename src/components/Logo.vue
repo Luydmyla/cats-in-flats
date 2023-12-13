@@ -43,11 +43,15 @@ export default {
   height: 1em;
   stroke-width: 0;
   stroke: currentColor;
+    /* stroke: brown; */
   fill: currentColor;
+    /* fill: brown; */
 }
 .logo-wrap{
+  /* width: 64px;
+  height: 64px; */
   display: flex;
-  color: yellow;
+  background:  rgb(227, 135, 50, 0.2);
 }
 /* .logo{
 display: flex;

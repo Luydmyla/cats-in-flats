@@ -5,7 +5,7 @@
             <a href="/" class="logo">
               <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
       <Logo></Logo>
-              <h2 class="logo-title">Котодім</h2>
+              <h2 class="logo-title">КотоХатка</h2>
             </a>
           </div>
           <!-- <nav class="nav">
@@ -64,6 +64,8 @@ font-family: Montserrat;
     /* 166.667% */
     letter-spacing: 0.5px;
     color: var(--ORANGE, #F07F2E);
+       color: #2b21f9;
+
 }
 /* .nav{
   
@@ -124,7 +126,9 @@ font-family: Montserrat;
     line-height: 40px;
     /* 166.667% */
     letter-spacing: 0.5px;
-    color: var(--ORANGE, #F07F2E);
+    /* color: var(--ORANGE, #F07F2E); */
+        /* color: #149dd8 ; */
+          color: #2b21f9;
 }
 /* .nav{
         display: flex;

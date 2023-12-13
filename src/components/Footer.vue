@@ -124,7 +124,7 @@ color: var(--WHITE, #FFF);
         .social-text{
     color: var(--WHITE, #FFF);
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;

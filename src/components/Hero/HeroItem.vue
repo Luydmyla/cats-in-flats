@@ -78,7 +78,7 @@
         margin-bottom: 0;
         /* height: 216px; */
         border-radius: 10px;
-        background-color: hsl(50 33% 25% / 0.75); /* 75% opaque, i.e. 25% transparent */
+        /* background-color: hsl(50 33% 25% / 0.75);  */
        background-color:  #fdcd7e transparent;
     /* font-family: Montserrat;
     font-size: 14px;
@@ -126,6 +126,9 @@
                 /* height: 20%; */
             /* width: 100%; */
             margin-top: 4px;
+            padding: 4px;
+            background-color: rgb(243,246,249, 0.75);
+            border-radius: 10px;
 
         }
         
@@ -156,13 +159,14 @@
     display: inline-flex;
         padding: 24px;
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
         gap: 8px;
         width: 432px;
         margin-bottom: 0;
         /* height: 216px; */
         border-radius: 16px;
-        background-color: rgb(253,205,126, 0.75);
+        /* background-color: rgb(253,205,126, 0.75); */
+             background-color: rgb(234,236,234, 0.9);
        /* background-color:  #fdcd7e; */
     font-family: Montserrat;
     font-size: 32px;
@@ -175,40 +179,39 @@
     color: #33665b;
         /* color: var(--WHITE, #FFF); */    
             font-family: Montserrat;
-            font-size: 18px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px;
+            line-height: 28px;
             letter-spacing: 0.5px;
-            width: 384px;
+            /* width: 384px; */
         }
  .greeting-textfooter{
             color: #33665b;    
             font-family: Montserrat;
-             font-size: 18px;
+             font-size: 24px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             line-height: 24px;
             letter-spacing: 0.5px;
-                /* height: 20%; */
-        
             margin-top: 20px;
+            color: #F07F2E;
 
         }
 
         .greeting-title{
-            display: flex;
-                width: 313px;
-                height: 40px;
-                flex-direction: column;
-                justify-content: center;
+            /* display: flex; */
+                /* width: 313px; */
+                /* height: 40px; */
+                /* flex-direction: column; */
+                /* justify-content: center; */
                 color: #33665b;
                 /* color: var(--WHITE, #FFF); */
                 font-family: Montserrat;
-                font-size: 32px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 32px;
+                line-height: 24px;
                 letter-spacing: 1.25px;
         }
 }

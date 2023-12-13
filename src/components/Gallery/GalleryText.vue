@@ -45,7 +45,7 @@ textAfter: {
 @media (min-width: 1024px) {
 .section-text{
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;

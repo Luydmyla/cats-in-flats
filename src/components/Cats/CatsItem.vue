@@ -117,10 +117,11 @@ object-fit:cover;
             }
            
             .item-footer{
-padding-top: 16px;
+              padding: 16px;
+/* padding-top: 16px;
 padding-bottom: 16px;
 padding-left: 16px;
-padding-right: 8px;
+padding-right: 16px; */
             }
             .item-title{
                 margin-bottom: 8px;

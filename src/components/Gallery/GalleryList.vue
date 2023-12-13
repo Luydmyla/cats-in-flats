@@ -1,6 +1,5 @@
 <template>
     <slot name="title"></slot>
-    <!-- <div class="container"> -->
                 <Title  text="Котики, які вже знайшли сім’ю"></Title>
                 <GalleryText textPre="Ти тільки поглянь, скільки ніжності!" textAfter="На місці цих задоволених людей можеш бути ти."></GalleryText>
               <div class="galllery">
@@ -9,8 +8,6 @@
               :imgHref="imgUrlBig"
               :imgSrc="imgUrl" />
               </div>
-            <!-- </div> -->
-         
 </template>
 
 <script>
