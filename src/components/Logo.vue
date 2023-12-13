@@ -14,7 +14,7 @@
                           width="48"
                           height="48"
                           fill="orange"
-                          :class="icon"
+                         
                         />
                     </a>
                   </div>
