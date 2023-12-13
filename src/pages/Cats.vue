@@ -9,8 +9,8 @@
            <p v-if="!filteredCats.length">
               По вашому запиту нічого не знайдено
             </p>
-          <!-- <CatsList v-else :items="filteredCats">
-             <template v-slot:cat="{ cat }">
+          <CatsList v-else :items="filteredCats">
+             <!-- <template v-slot:cat="{ cat }">
                 <CatsItem
                   :key="cat.id"
                   :id="cat.id"
@@ -19,9 +19,9 @@
                   :rating="cat.rating"
                   :imgSrc="cat.imgUrl"
                 />
-              </template>
+              </template> -->
 
-          </CatsList> -->
+          </CatsList>
 
     </div>
 </template>
@@ -29,14 +29,14 @@
 <script>
 
 import cats from "../components/Cats/cats.js";
-// import CatsList from "../../src/components/Cats/Catslist.vue";
+import CatsList from "../../src/components/Cats/Catslist.vue";
 import Container from "../components/shared/Container.vue";
 import CatstsFilterForm from "../components/Cats/CatstsFilterForm.vue"
 export default {
     name: "Cats",
     components: {
         CatstsFilterForm,
-        // CatsList,
+        CatsList,
             Container,
         },
          data() {
