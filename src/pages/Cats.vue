@@ -29,7 +29,7 @@
 <script>
 
 import cats from "../components/Cats/cats.js";
-import CatsList from "../components/Cats/Catslist.vue";
+import CatsList from "../components/Cats/CatsList.vue";
 import Container from "../components/shared/Container.vue";
 import CatstsFilterForm from "../components/Cats/CatstsFilterForm.vue"
 export default {
