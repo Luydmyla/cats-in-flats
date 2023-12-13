@@ -47,8 +47,7 @@ export default {
             filters: {
               city: "",
               price:  0,
-         }
-           
+         }  
         }
     },
     computed: {
@@ -57,25 +56,6 @@ export default {
         // return cats
             return this.filterByCityName(this.filterByPrice(cats));
         },
-        // filter({ city, price }) {
-        //     console.log(this.filters.city, this.filters.price);
-        //     this.filters.city = city;
-        //     this.filters.price = price;
-        // },
-        // filterByCityName(cats) {
-        //     console.log(this.filters.value.city);
-        //     if (!this.filters.value.city) return cats;
-        //     return this.cats.filter((cat) => {
-        //         return cat.location.city === this.filters.value.city;
-        //     });
-        // },
-        // filterByPrice(cats) {
-        //     console.log(this.filters.value.price);
-        //     if (!this.filters.value.price) return cats;
-        //     return this.cats.filter((cat) => {
-        //         return cat.price >= this.filters.value.price;
-        //     });
-        // }
     },
     methods: {
     filter({ city, price }) {
@@ -85,7 +65,7 @@ export default {
        console.log(this.filters.city, this.filters.price);
 },    
     handleItemClick() {
-    // console.log("Item click");
+   
 },
     filterByCityName(cats) {
             console.log(this.filters.city);
@@ -100,8 +80,7 @@ export default {
             return this.cats.filter((cat) => {
                 return cat.price >= this.filters.price;
             });
-        }
-        
+        }  
     }
     }
 </script>
