@@ -1,6 +1,6 @@
 <template>
     <div>
-     <Container>
+     <Container class="filtercontainer">
             <CatstsFilterForm
               @update:modelValue="filter"
               class="apartments-filter"
@@ -88,5 +88,10 @@ export default {
 <style lang="scss" scoped>
 .apartments-filter {
   margin-bottom: 40px;
+}
+.filtercontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 </style>
