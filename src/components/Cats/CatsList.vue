@@ -52,6 +52,7 @@ import Title from "../Title.vue";
   .cats-list{
                 width: 100%;
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
                 gap: 40px;
                 margin-top: 40px;

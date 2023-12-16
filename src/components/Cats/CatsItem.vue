@@ -68,7 +68,7 @@ import Container from "../shared/Container.vue";
 
 .cat-item{
                 /* flex-basis: calc((100% - 80px) / 3); */
-                  /* width: calc((100% - 80px) / 3); */
+                  width: calc((100% - 80px) / 3);
                 /* height: 360px; */
                 margin-bottom: 8px;
                 overflow: hidden;

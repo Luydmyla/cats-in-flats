@@ -1,5 +1,5 @@
 <template>
-    <div>
+   
      <Container class="filtercontainer">
             <CatstsFilterForm
               @update:modelValue="filter"
@@ -23,7 +23,7 @@
 
           </CatsList>
 
-    </div>
+  
 </template>
 
 <script>
