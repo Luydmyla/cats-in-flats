@@ -46,6 +46,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px;
 }
 .footer-logo{
     display: flex;
