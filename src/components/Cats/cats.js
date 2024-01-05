@@ -2,7 +2,7 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47b",
     title: "Барбарис",
-    imgUrl: "./img/picture-3.jpg",
+    imgUrl: "../../../public/img/catsInfo/IMG_20231109_132714.jpg",
     descr: "  Хижий для ворогів, ласкавий та м’якесенький до своїх.",
     rating: 3,
     price: 1667,

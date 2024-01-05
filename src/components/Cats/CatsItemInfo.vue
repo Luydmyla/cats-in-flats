@@ -3,7 +3,9 @@
             <h2 class="cats-info-title">{{ items.title }}</h2>
         <div class="cats-info-wrap">
      <div class="cats-info-image">
-                      <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" />
+                      <!-- <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" /> -->
+                      <img :src="items.imgUrl" alt="items.title"    class="image-poster" />
+
              </div>
      <div class="cats-info-table">
                        <table>
@@ -76,6 +78,7 @@ export default {
 
 <style lang="scss" scoped>
 .cats-info{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +105,13 @@ export default {
 }
 .cats-info-image{
    width: 50%;
+   /* height: 50%; */
+   
+}
+.cats-info-image img{
+   /* width: 50%; */
+   height: 400px;
+   
 }
 .cats-info-table{
     display: flex;
