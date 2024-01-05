@@ -1,5 +1,6 @@
 import HomePage from "./pages/HomePage.vue";
 import Cats from "./pages/Cats.vue";
+import CatsInfo from "./pages/CatsInfo.vue";
 import Contacts from "./pages/Contacts.vue";
 import Donats from "./pages/Donats.vue";
 import ErrorPage from "./pages/ErrorPage.vue";
@@ -16,6 +17,11 @@ const routes = [
     path: "/cats-in-flats/cats",
     component: Cats,
     name: "cats",
+  },
+  {
+    path: "/cats-in-flats/catsinfo/:id",
+    component: CatsInfo,
+    name: "catsInfo",
   },
   {
     path: "/cats-in-flats/donats",
