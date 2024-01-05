@@ -3,7 +3,7 @@
      <Container class="filtercontainer">
             <CatstsFilterForm
               @update:modelValue="filter"
-              class="apartments-filter"
+              class="cats-filter"
             />
           </Container>
            <p v-if="!filteredCats.length">

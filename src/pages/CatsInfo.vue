@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <Container>
+        
+   <Title text="Придивись до цього котика - може це саме він "/>
+    <Container>
      <!-- <CatsItemInfo v-for="{ id, descr, title, imgUrl, rating, price } in items"
               :key="id"
                 :descr="descr"
@@ -11,19 +12,20 @@
                 /> -->
                  <CatsItemInfo :items="cat" />
         </Container>
-      
-    </div>
+   
 </template>
 
 <script>
 import Container from '../components/shared/Container.vue';
+import Title from "../components/Title.vue";
 import CatsItemInfo from "../components/Cats/CatsItemInfo.vue"
 import cats from "../components/Cats/cats.js"
 export default {
        name: "CatsInfoPage",
        components: {
            Container,
-        CatsItemInfo,
+           CatsItemInfo,
+          Title,
     },
      data() {
         return {

@@ -85,8 +85,8 @@ export default {
 @media (min-width: 1024px) {
   .footer {
     background-color:#c8b69e;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .footer-container{
    width: 100%;

@@ -1,43 +1,37 @@
 <template>
-    <div>
+        <div class="cats-info">
             <h2 class="cats-info-title">{{ items.title }}</h2>
-    <div class="cat-info-image">
-                  <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" />
-         </div>
-                <div class="cats-info">
-              
-                   <table>
-                     <tr>
-                  <th class="info-table-td" data-key="original-title"> Сравжнє імя котика</th>
-                  <td class="info-table-original_title" valign="bottom">{{ items.title }}</td>
-                </tr>
-                <tr>
-                  <th class="info-table-td" data-key="vote">Трохи про котика</th>
-                  <td> <span class="info-table-vote_average"> {{ items.descr }}</span>/<span class="info-table-vote_count"> {{ items.price }} </span></td>
-                </tr>
-                <tr>
-                  <th class="info-table-td" data-key="popularity">Популярність</th>
-                  <td>{{ items.rating }}</td>
-                </tr>
-              </table>
-                </div>
-    </div>
-    
+        <div class="cats-info-wrap">
+     <div class="cats-info-image">
+                      <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" />
+             </div>
+     <div class="cats-info-table">
+                       <table>
+                    <tr class="info-table-tr">
+                      <th class="info-table-th" data-key="original-title"> Сравжнє імя котика</th>
+                      <td class="info-table-td" valign="bottom">{{ items.title }}</td>
+                    </tr>
+                    <tr class="info-table-tr">
+                      <th class="info-table-th" data-key="vote">Трохи про котика</th>
+                      <td class="info-table-td"> {{ items.descr }}</td>
+                    </tr>
+                    <tr class="info-table-tr">
+                      <th class="info-table-th" data-key="age">Вік котика</th>
+                      <td class="info-table-td">{{ items.price }}</td>
+                    </tr>
+                     <tr class="info-table-tr">
+                          <th class="info-table-th" data-key="popularity">Популярність</th>
+                          <td class="info-table-td">{{ items.rating }}</td>
+                        </tr>
+                  </table>
+                    </div>
 
-    <!-- <div class="cat-item">
-        <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="cat Барбарис" />
-      
-        <div class="img-wrap">
-            <img :src="items.imgUrl" :alt="items.title" />
         </div>
-        <div class="item-footer">
-            <h3 class="item-title">{{ items.title }}</h3>
-            <p class="item-descr">
-                {{ items.descr }}
-            </p>
-        </div>
-    </div> -->
+            
+               
+    </div>
 </template>
+
 
 <script>
 // import cats from "../components/Cats/cats";
@@ -71,8 +65,6 @@ export default {
     // },
      props: {
         items: {
-            // type: Array,
-             //  default: () => [],
             type: Object,
              default: () => {},
             
@@ -82,4 +74,68 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.cats-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cats-info-title{ 
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                letter-spacing: 0.5px;
+                color:  #f04730;
+                  background-color:#c8ec6f
+}
+.cats-info-wrap{
+    display: flex;
+    width: 100%;
+}
+.image-poster{
+ background-color: #c8ec6f;
+}
+.cats-info-image{
+   width: 50%;
+}
+.cats-info-table{
+    display: flex;
+        align-items: center;
+    background-color: aliceblue;
+    width: 50%;
+    padding: 8px;
+}
+.cats-info-table table{
+    /* background-color: aliceblue; */
+    width: 100%;
+}
+.info-table-tr{
+    display: flex;
+  
+}
+.info-table-th{
+     font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+    display: flex;
+    color: #f04730;
+      width: 30%;
+}
+.info-table-td{
+ font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: start;
+    display: flex;
+    color: #50f030;
+    width: 70%;
+}
+</style>
