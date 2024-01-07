@@ -1,23 +1,27 @@
 <template>   
 <!-- <Container> -->
-    <div class="cat-item">
-                      <!-- <img src="../../assets/img/picture.jpg" alt="cat Барбарис" />
+  <router-link :to="`/catsinfo/${$props.id}`"   class="cat-item">
+
+   
+                        <!-- <img src="../../assets/img/picture.jpg" alt="cat Барбарис" />
                       <div class="item-footer">
                         <h3 class="item-title">Барбарис</h3>
                         <p class="item-descr">
                           Хижий для ворогів, ласкавий та м’якесенький до своїх.
                         </p>
                       </div> -->
-                      <div class="img-wrap">
-                             <img :src="imgSrc" :alt="title" />
-                      </div>
-                      <div class="item-footer">
-                            <h3 class="item-title">{{title}}</h3>
-                            <p class="item-descr">
-                              {{ descr }}
-                            </p>
-                      </div>
-    </div>
+                        <div class="img-wrap">
+                               <img :src="imgSrc" :alt="title" />
+                        </div>
+                        <div class="item-footer">
+                              <h3 class="item-title">{{ title }}</h3>
+                              <p class="item-descr">
+                                {{ descr }}
+                              </p>
+                        </div>
+     
+  </router-link>
+   
 
 
 <!-- </Container> -->
@@ -32,10 +36,10 @@ import Container from "../shared/Container.vue";
             Container,
     },
         props: {
-        // id: {
-        //     type: String,
-        //     required: true,
-        // },
+        id: {
+            type: String,
+            required: true,
+        },
         descr: {
             type: String,
             default: "",
@@ -141,7 +145,7 @@ color: var(--GREY, #2C2C2C);
 @media (min-width: 1024px) {
 .cat-item{
                 /* flex-basis: calc((100% - 80px) / 3); */
-                  width: calc((100% - 80px) / 3);
+                  width: calc((100% - 120px) / 4);
                 /* height: 360px; */
                 margin-bottom: 8px;
                 overflow: hidden;
@@ -172,7 +176,7 @@ overflow: hidden;
                 width: 100%;
               
                 /* height: 100%; */
-object-fit:cover;
+object-fit:contain;
                         }
                        
             .item-title{

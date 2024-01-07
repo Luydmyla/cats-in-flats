@@ -10,6 +10,7 @@
             :descr="descr"
             :title="title"
             :imgSrc="imgUrl"
+            :id="id"
         />
           <!-- <template v-for="cat in items">
             <slot name="cat" v-bind:cat="cat"></slot>

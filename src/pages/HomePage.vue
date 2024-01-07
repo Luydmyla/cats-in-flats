@@ -38,13 +38,13 @@ import gallery from "../components/Gallery/gallery";
             console.log(cats)
            
             // return this.filterByRating(cats);
-              return this.firstThreeCats(cats);
+              return this.firstCats(cats);
         },
     },
     methods: {
-        firstThreeCats(cats) {
+        firstCats(cats) {
             console.log([cats[0], cats[1], cats[2]])
-            return ([cats[0], cats[1], cats[2]])
+            return ([cats[0], cats[1], cats[2], cats[3]] )
         },
         // filterByRating(cats) {
         //     const bestCats = [];
