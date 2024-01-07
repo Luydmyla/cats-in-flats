@@ -9,40 +9,42 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/cats-in-flats/",
+    path: "/",
+    // path: "/",
     component: HomePage,
     name: "homepage",
   },
   {
-    path: "/cats-in-flats/cats",
+    path: "/cats",
+    // path: "/cats",
     component: Cats,
     name: "cats",
   },
   {
-    path: "/cats-in-flats/catsinfo/:id",
+    path: "/catsinfo/:id",
     component: CatsInfo,
     name: "catsInfo",
   },
   {
-    path: "/cats-in-flats/donats",
+    path: "/donats",
     component: Donats,
     name: "donats",
   },
   {
-    path: "/cats-in-flats/contacts",
+    path: "/contacts",
     component: Contacts,
     name: "contacts",
   },
 
   {
-    path: "/cats-in-flats/:pathMatch(.*)",
+    path: "/:pathMatch(.*)",
     component: ErrorPage,
     name: "error-page",
   },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/cats-in-flats"),
   routes,
 });
 

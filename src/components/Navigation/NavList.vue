@@ -3,7 +3,10 @@
                 <!-- <a href="">Обрати котика</a>
                 <a href="">Задонатити котикам</a>
                 <a href="">Контакти</a> -->
-    <NavItem text="Обрати котика"></NavItem>
+                <router-link to="cats">
+      <NavItem text="Обрати котика"></NavItem>
+                </router-link>
+  
     <NavItem text="Задонатити котикам "></NavItem>
     <NavItem text=" Контакти "></NavItem>
 
