@@ -2,10 +2,10 @@
           <!-- <section section class="social" > -->
                   <!-- <p class="social-text">Соцмережі</p> -->
                   <ul class="social-links">
-<SocialItem href="../../src/assets/img/icons.svg#icon-instagram"/>
-    <SocialItem href="../../src/assets/img/icons.svg#icon-facebook"/>
-    <SocialItem href="../../src/assets/img/icons.svg#icon-youtube"/>
-    <SocialItem href="../../src/assets/img/icons.svg#icon-tiktok"/>
+<SocialItem href="/public/img/icons.svg#icon-instagram"/>
+    <SocialItem href="/public/img/icons.svg#icon-facebook"/>
+    <SocialItem href="/public/img/icons.svg#icon-youtube"/>
+    <SocialItem href="/public/img/icons.svg#icon-tiktok"/>
                     <!-- <li class="social-item">
                       <a href="">
                         <svg>

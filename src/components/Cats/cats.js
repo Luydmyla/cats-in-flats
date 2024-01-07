@@ -2,7 +2,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47b",
     title: "Барбарис",
-    imgUrl: "/src/assets/img/catsInfo/1.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/1.jpg",
+      one: "/public/img/catsInfo/1.1.jpg",
+      two: "/public/img/catsInfo/1.2.jpg",
+      three: "/public/img/catsInfo/1.3.jpg",
+      four: "/public/img/catsInfo/1.4.jpg",
+      five: "/public/img/catsInfo/1.5.jpg",
+      six: "/public/img/catsInfo/1.6.jpg",
+    },
     descr: "  Хижий для ворогів, ласкавий та м’якесенький до своїх.",
     rating: 3,
     price: 1667,
@@ -18,7 +26,16 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47d",
     title: "Мишка",
-    imgUrl: "/src/assets/img/catsInfo/2.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/2.jpg",
+      one: "/public/img/catsInfo/2.1.jpg",
+      two: "/public/img/catsInfo/2.2.jpg",
+      three: "/public/img/catsInfo/2.3.jpg",
+      four: "/public/img/catsInfo/2.4.jpg",
+      five: "/public/img/catsInfo/2.5.jpg",
+      six: "/public/img/catsInfo/2.6.jpg",
+    },
+
     descr: " Киця з роду котів-талісманів. Несе удачу та затишок в дім.",
     rating: 3,
     price: 2740,
@@ -34,7 +51,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f48a",
     title: "Капітан",
-    imgUrl: "/src/assets/img/catsInfo/3.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/3.jpg",
+      one: "/public/img/catsInfo/3.1.jpg",
+      two: "/public/img/catsInfo/3.2.jpg",
+      three: "/public/img/catsInfo/3.3.jpg",
+      four: "/public/img/catsInfo/3.4.jpg",
+      five: "/public/img/catsInfo/3.5.jpg",
+      six: "/public/img/catsInfo/3.6.jpg",
+    },
     descr: " Всюди головний. Підкорить тебе, але ти будеш щасливий.",
     rating: 1,
     price: 2153,
@@ -50,7 +75,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f481",
     title: "Dolor",
-    imgUrl: "/src/assets/img/catsInfo/4.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/4.jpg",
+      one: "/public/img/catsInfo/4.1.jpg",
+      two: "/public/img/catsInfo/4.2.jpg",
+      three: "/public/img/catsInfo/4.3.jpg",
+      four: "/public/img/catsInfo/4.4.jpg",
+      five: "/public/img/catsInfo/4.5.jpg",
+      six: "/public/img/catsInfo/4.6.jpg",
+    },
     descr:
       "Nihil dolorem in qui et occaecati. Sit qui deleniti. Expedita doloremque fugit culpa sit vel labore.",
     rating: 3,
@@ -67,7 +100,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47c",
     title: "Sapiente ",
-    imgUrl: "/src/assets/img/catsInfo/5.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/5.jpg",
+      one: "/public/img/catsInfo/5.1.jpg",
+      two: "/public/img/catsInfo/5.2.jpg",
+      three: "/public/img/catsInfo/5.3.jpg",
+      four: "/public/img/catsInfo/5.4.jpg",
+      five: "/public/img/catsInfo/5.5.jpg",
+      six: "/public/img/catsInfo/5.6.jpg",
+    },
     descr:
       "Voluptatem sed dolor. Voluptatem eos minus nostrum quis facilis voluptas fugiat. Vel voluptas molestiae nesciunt.",
     rating: 2,
@@ -84,7 +125,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47f",
     title: "corporis.",
-    imgUrl: "/src/assets/img/catsInfo/6.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/6.jpg",
+      one: "/public/img/catsInfo/6.1.jpg",
+      two: "/public/img/catsInfo/6.2.jpg",
+      three: "/public/img/catsInfo/6.3.jpg",
+      four: "/public/img/catsInfo/6.4.jpg",
+      five: "/public/img/catsInfo/6.5.jpg",
+      six: "/public/img/catsInfo/6.6.jpg",
+    },
     descr:
       "Odit repudiandae autem hic eos. Fuga omnis laboriosam similique rerum. Delectus exercitationem a quod. Sunt nobis omnis expedita veniam sit minus eos culpa. Aliquid mollitia deserunt sed mollitia.",
     rating: 2,
@@ -101,7 +150,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f48c",
     title: " dolorem ",
-    imgUrl: "/src/assets/img/catsInfo/7.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/7.jpg",
+      one: "/public/img/catsInfo/7.1.jpg",
+      two: "/public/img/catsInfo/7.2.jpg",
+      three: "/public/img/catsInfo/7.3.jpg",
+      four: "/public/img/catsInfo/7.4.jpg",
+      five: "/public/img/catsInfo/7.5.jpg",
+      six: "/public/img/catsInfo/7.6.jpg",
+    },
     descr:
       "Soluta quo et rerum vel. Qui earum inventore. Dolores vero facilis ut mollitia nisi iusto a quis. Nesciunt asperiores dolorum magni qui. Omnis autem nulla cupiditate et rerum et iusto rem.",
     rating: 0,
@@ -118,7 +175,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f485",
     title: "Nihil ",
-    imgUrl: "/src/assets/img/catsInfo/8.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/8.jpg",
+      one: "/public/img/catsInfo/8.1.jpg",
+      two: "/public/img/catsInfo/8.2.jpg",
+      three: "/public/img/catsInfo/8.3.jpg",
+      four: "/public/img/catsInfo/8.4.jpg",
+      five: "/public/img/catsInfo/8.5.jpg",
+      six: "/public/img/catsInfo/8.6.jpg",
+    },
     descr:
       "Quae aliquid odit aut quia. Sed aut sed quis repudiandae est consequatur id quo ut. Molestiae nemo maiores quis deleniti sequi et eaque architecto officia. Molestiae incidunt qui quia. Fugiat id eum totam porro autem.",
     rating: 1,
@@ -135,7 +200,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f48b",
     title: " officia ",
-    imgUrl: "/src/assets/img/catsInfo/9.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/9.jpg",
+      one: "/public/img/catsInfo/9.1.jpg",
+      two: "/public/img/catsInfo/9.2.jpg",
+      three: "/public/img/catsInfo/9.3.jpg",
+      four: "/public/img/catsInfo/9.4.jpg",
+      five: "/public/img/catsInfo/9.5.jpg",
+      six: "/public/img/catsInfo/9.6.jpg",
+    },
     descr:
       "Rerum sed voluptas vero ut rerum at ad. Aliquam unde quia earum perspiciatis reiciendis maxime voluptatem. Officiis et est velit placeat adipisci dolores.",
     rating: 0,
@@ -152,7 +225,16 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47e",
     title: "Rerum ",
-    imgUrl: "/src/assets/img/catsInfo/10.jpg",
+    // imgUrl: "/public/img/catsInfo/10.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/10.jpg",
+      one: "/public/img/catsInfo/10.1.jpg",
+      two: "/public/img/catsInfo/10.2.jpg",
+      three: "/public/img/catsInfo/10.3.jpg",
+      four: "/public/img/catsInfo/10.4.jpg",
+      five: "/public/img/catsInfo/10.5.jpg",
+      six: "/public/img/catsInfo/10.6.jpg",
+    },
     descr:
       "Laboriosam ut nam molestiae. Minus est doloremque et aperiam sunt et. Rem earum illum. Dolor consequatur fugiat.",
     rating: 4,
@@ -169,7 +251,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f488",
     title: "except",
-    imgUrl: "/src/assets/img/catsInfo/11.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/11.jpg",
+      one: "/public/img/catsInfo/11.1.jpg",
+      two: "/public/img/catsInfo/11.2.jpg",
+      three: "/public/img/catsInfo/11.3.jpg",
+      four: "/public/img/catsInfo/11.4.jpg",
+      five: "/public/img/catsInfo/11.5.jpg",
+      six: "/public/img/catsInfo/11.6.jpg",
+    },
     descr:
       "Accusantium tempora dolore autem. Nihil perferendis neque. Dignissimos est quidem quasi sit mollitia. Dolorem suscipit earum recusandae quam. Sunt atque vel dolorem. Quidem in temporibus.",
     rating: 5,
@@ -186,7 +276,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f487",
     title: "Eligendi",
-    imgUrl: "/src/assets/img/catsInfo/12.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/12.jpg",
+      one: "/public/img/catsInfo/12.1.jpg",
+      two: "/public/img/catsInfo/12.2.jpg",
+      three: "/public/img/catsInfo/12.3.jpg",
+      four: "/public/img/catsInfo/12.4.jpg",
+      five: "/public/img/catsInfo/12.5.jpg",
+      six: "/public/img/catsInfo/12.6.jpg",
+    },
     descr:
       "Quidem natus sunt. Sunt nobis repudiandae. Id reprehenderit accusantium quasi expedita.",
     rating: 0,
@@ -203,7 +301,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f480",
     title: "nobis",
-    imgUrl: "/src/assets/img/catsInfo/13.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/13.jpg",
+      one: "/public/img/catsInfo/13.1.jpg",
+      two: "/public/img/catsInfo/13.2.jpg",
+      three: "/public/img/catsInfo/13.3.jpg",
+      four: "/public/img/catsInfo/13.4.jpg",
+      five: "/public/img/catsInfo/13.5.jpg",
+      six: "/public/img/catsInfo/13.6.jpg",
+    },
     descr:
       "Exercitationem consequuntur expedita aut neque hic ut ratione. Nulla aut non inventore quod voluptas dolore quod. Doloribus ipsam hic.",
     rating: 2,
@@ -220,7 +326,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f479",
     title: "tati",
-    imgUrl: "/src/assets/img/catsInfo/14.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/14.jpg",
+      one: "/public/img/catsInfo/14.1.jpg",
+      two: "/public/img/catsInfo/14.2.jpg",
+      three: "/public/img/catsInfo/14.3.jpg",
+      four: "/public/img/catsInfo/14.4.jpg",
+      five: "/public/img/catsInfo/14.5.jpg",
+      six: "/public/img/catsInfo/14.6.jpg",
+    },
     descr:
       "Beatae quaerat esse voluptas laborum id quo perspiciatis. Id debitis totam veritatis nostrum sunt. Laboriosam quis dolorem. Repudiandae hic iure similique blanditiis expedita maiores dignissimos reprehenderit sed.",
     rating: 1,
@@ -237,7 +351,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f47a",
     title: "Tempora",
-    imgUrl: "/src/assets/img/catsInfo/15.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/15.jpg",
+      one: "/public/img/catsInfo/15.1.jpg",
+      two: "/public/img/catsInfo/15.2.jpg",
+      three: "/public/img/catsInfo/15.3.jpg",
+      four: "/public/img/catsInfo/15.4.jpg",
+      five: "/public/img/catsInfo/15.5.jpg",
+      six: "/public/img/catsInfo/15.6.jpg",
+    },
     descr:
       "Debitis aliquid laboriosam optio sequi magnam reiciendis facilis. Earum a id voluptas libero qui. Perspiciatis vero doloribus impedit vel quibusdam.",
     rating: 1,
@@ -254,7 +376,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f482",
     title: "Autem ",
-    imgUrl: "/src/assets/img/catsInfo/16.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/16.jpg",
+      one: "/public/img/catsInfo/16.1.jpg",
+      two: "/public/img/catsInfo/16.2.jpg",
+      three: "/public/img/catsInfo/16.3.jpg",
+      four: "/public/img/catsInfo/16.4.jpg",
+      five: "/public/img/catsInfo/16.5.jpg",
+      six: "/public/img/catsInfo/16.6.jpg",
+    },
     descr:
       "Quaerat aut ipsam vel. Laudantium dignissimos repellat autem blanditiis velit quidem dignissimos accusantium commodi. Dolor praesentium laudantium voluptatem tempore. Corrupti facilis voluptates id saepe eos repudiandae mollitia. Voluptatem id assumenda sunt at minus.",
     rating: 1,
@@ -271,7 +401,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f484",
     title: " omnis ",
-    imgUrl: "/src/assets/img/catsInfo/17.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/17.jpg",
+      one: "/public/img/catsInfo/17.1.jpg",
+      two: "/public/img/catsInfo/17.2.jpg",
+      three: "/public/img/catsInfo/17.3.jpg",
+      four: "/public/img/catsInfo/17.4.jpg",
+      five: "/public/img/catsInfo/17.5.jpg",
+      six: "/public/img/catsInfo/17.6.jpg",
+    },
     descr:
       "Magni qui blanditiis doloribus mollitia laboriosam quibusdam provident. Et et minima quae commodi dicta vel omnis. Numquam nemo laborum ullam perspiciatis tempora.",
     rating: 2,
@@ -288,7 +426,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f489",
     title: "Possimus",
-    imgUrl: "/src/assets/img/catsInfo/18.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/18.jpg",
+      one: "/public/img/catsInfo/18.1.jpg",
+      two: "/public/img/catsInfo/18.2.jpg",
+      three: "/public/img/catsInfo/18.3.jpg",
+      four: "/public/img/catsInfo/18.4.jpg",
+      five: "/public/img/catsInfo/18.5.jpg",
+      six: "/public/img/catsInfo/18.6.jpg",
+    },
     descr:
       "Odio accusantium dicta. Sit minus quo quo. Excepturi est deleniti enim voluptas quis rerum. Libero beatae consequatur. Error nostrum porro quo perspiciatis adipisci.",
     rating: 5,
@@ -305,7 +451,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f486",
     title: "rerum ",
-    imgUrl: "/src/assets/img/catsInfo/19.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/19.jpg",
+      one: "/public/img/catsInfo/19.1.jpg",
+      two: "/public/img/catsInfo/19.2.jpg",
+      three: "/public/img/catsInfo/19.3.jpg",
+      four: "/public/img/catsInfo/19.4.jpg",
+      five: "/public/img/catsInfo/19.5.jpg",
+      six: "/public/img/catsInfo/19.6.jpg",
+    },
     descr:
       "Reprehenderit velit iusto fugiat possimus animi est rerum. Assumenda minus qui perspiciatis sint veniam culpa quod tempora in. Eligendi qui rerum optio nihil maxime ipsa quaerat voluptas. Quod possimus aut cum inventore quaerat quam. Voluptate ducimus unde ipsa. Id ducimus aut iusto porro.",
     rating: 5,
@@ -322,7 +476,15 @@ export default [
   {
     id: "5f689a2c09b16000e9a2f483",
     title: "maxime ",
-    imgUrl: "/src/assets/img/catsInfo/20.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/20.jpg",
+      one: "/public/img/catsInfo/20.1.jpg",
+      two: "/public/img/catsInfo/20.2.jpg",
+      three: "/public/img/catsInfo/20.3.jpg",
+      four: "/public/img/catsInfo/20.4.jpg",
+      five: "/public/img/catsInfo/20.5.jpg",
+      six: "/public/img/catsInfo/20.6.jpg",
+    },
     descr:
       "Sit quo in commodi est ex dicta qui. Dolore minus ea sit voluptatem voluptas non rerum consectetur. Architecto maxime nulla. Et dolorem beatae quidem debitis. Odio ad id atque neque. Neque vero hic quibusdam consequatur perferendis dolor ut.",
     rating: 3,
@@ -339,7 +501,15 @@ export default [
   {
     id: "5f689a2c09b16498e9a2f47b",
     title: "Фрис",
-    imgUrl: "/src/assets/img/catsInfo/21.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/21.jpg",
+      one: "/public/img/catsInfo/21.1.jpg",
+      two: "/public/img/catsInfo/21.2.jpg",
+      three: "/public/img/catsInfo/21.3.jpg",
+      four: "/public/img/catsInfo/21.4.jpg",
+      five: "/public/img/catsInfo/21.5.jpg",
+      six: "/public/img/catsInfo/21.6.jpg",
+    },
     descr: "  Котик 21",
     rating: 7,
     price: 3467,
@@ -355,7 +525,15 @@ export default [
   {
     id: "5f689a2c09b16498e9a2f47b",
     title: "Фрис",
-    imgUrl: "/src/assets/img/catsInfo/22.jpg",
+    imgUrl: {
+      main: "/public/img/catsInfo/22.jpg",
+      one: "/public/img/catsInfo/22.1.jpg",
+      two: "/public/img/catsInfo/22.2.jpg",
+      three: "/public/img/catsInfo/22.3.jpg",
+      four: "/public/img/catsInfo/22.4.jpg",
+      five: "/public/img/catsInfo/22.5.jpg",
+      six: "/public/img/catsInfo/22.6.jpg",
+    },
     descr: "  Котик 22",
     rating: 7,
     price: 3467,

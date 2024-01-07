@@ -9,7 +9,7 @@
           :key="id"
             :descr="descr"
             :title="title"
-            :imgSrc="imgUrl"
+            :imgSrc="imgUrl.main"
             :id="id"
         />
           <!-- <template v-for="cat in items">

@@ -4,7 +4,20 @@
         <div class="cats-info-wrap">
      <div class="cats-info-image">
                       <!-- <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" /> -->
-                      <img :src="items.imgUrl" alt="items.title"    class="image-poster" />
+                      <img :src="items.imgUrl.main " alt="items.title"    class="image-poster" />
+                       <img :src="items.imgUrl.one" alt="items.title"    class="image-poster" />
+
+                        <img :src="items.imgUrl.two" alt="items.title"    class="image-poster" />
+
+                         <img :src="items.imgUrl.three" alt="items.title"    class="image-poster" />
+
+                          <img :src="items.imgUrl.four" alt="items.title"    class="image-poster" />
+
+                           <img :src="items.imgUrl.five" alt="items.title"    class="image-poster" />
+                              <img :src="items.imgUrl.six" alt="items.title"    class="image-poster" />
+
+
+
 
              </div>
      <div class="cats-info-table">
