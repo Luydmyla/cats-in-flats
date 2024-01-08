@@ -2,7 +2,7 @@
      <header class="container header">
       
           <div>
-            <a href="/cats-in-flats" class="logo">
+            <a href="/cats-in-flats/" class="logo">
               <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
       <Logo></Logo>
               <h2 class="logo-title">КотоХатка</h2>
