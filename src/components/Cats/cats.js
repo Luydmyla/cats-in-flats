@@ -527,7 +527,7 @@ export default [
     id: "5f689a2c09b16498e9a2f47b",
     title: "Фрис",
     imgUrl: {
-      main: "/img/catsInfo/22.jpg",
+      main: import.meta.url + "/img/catsInfo/22.jpg",
       one: "/img/catsInfo/22.1.jpg",
       two: "/img/catsInfo/22.2.jpg",
       three: "/img/catsInfo/22.3.jpg",

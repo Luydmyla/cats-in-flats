@@ -11,7 +11,7 @@
                         </p>
                       </div> -->
                         <div class="img-wrap">
-                               <img :src="imgSrc" :alt="title" />
+                               <img :src="'/cats-in-flats' + imgSrc" :alt="title" />
                         </div>
                         <div class="item-footer">
                               <h3 class="item-title">{{ title }}</h3>

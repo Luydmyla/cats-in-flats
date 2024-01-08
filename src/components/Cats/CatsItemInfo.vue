@@ -4,18 +4,20 @@
         <div class="cats-info-wrap">
        <!-- <div  v-if="items.imgUrl" class="cats-info-image"></div>        -->
      <div   class="cats-info-image">
+
+          <!-- :src="'/cats-in-flats' + imgSrc" -->
                       <!-- <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" /> -->
-                      <img :src="items.imgUrl.main " alt="items.title"    class="image-poster" />
-                       <img :src="items.imgUrl.one" alt="items.title"    class="image-poster" />
+                      <img :src="'/cats-in-flats' + items.imgUrl.main " alt="items.title"    class="image-poster" />
+                       <img :src="'/cats-in-flats' + items.imgUrl.one" alt="items.title"    class="image-poster" />
 
-                        <img :src="items.imgUrl.two" alt="items.title"    class="image-poster" />
+                        <img :src="'/cats-in-flats' + items.imgUrl.two" alt="items.title"    class="image-poster" />
 
-                         <img :src="items.imgUrl.three" alt="items.title"    class="image-poster" />
+                         <img :src="'/cats-in-flats' + items.imgUrl.three" alt="items.title"    class="image-poster" />
 
-                          <img :src="items.imgUrl.four" alt="items.title"    class="image-poster" />
+                          <img :src="'/cats-in-flats' + items.imgUrl.four" alt="items.title"    class="image-poster" />
 
-                           <img :src="items.imgUrl.five" alt="items.title"    class="image-poster" />
-                              <img :src="items.imgUrl.six" alt="items.title"    class="image-poster" />
+                           <img :src="'/cats-in-flats' + items.imgUrl.five" alt="items.title"    class="image-poster" />
+                              <img :src="'/cats-in-flats' + items.imgUrl.six" alt="items.title"    class="image-poster" />
 
 
 

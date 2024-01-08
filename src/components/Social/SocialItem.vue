@@ -2,7 +2,7 @@
     <li class="social-item">
         <a href="">
             <svg>
-                <use :href=href></use>
+                <use :href="'/cats-in-flats' + href"></use>
                    <!-- <use href="../../src/assets/img/icons.svg#
                     icon-instagram"></use> -->
              </svg>
