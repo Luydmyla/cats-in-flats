@@ -2,7 +2,8 @@
         <div class="cats-info">
             <h2 class="cats-info-title">{{ items.title }}</h2>
         <div class="cats-info-wrap">
-     <div class="cats-info-image">
+       <!-- <div  v-if="items.imgUrl" class="cats-info-image"></div>        -->
+     <div   class="cats-info-image">
                       <!-- <img src="../../../public/img/catsInfo/IMG_20231109_134838.jpg" alt="items.title" class="image-poster" /> -->
                       <img :src="items.imgUrl.main " alt="items.title"    class="image-poster" />
                        <img :src="items.imgUrl.one" alt="items.title"    class="image-poster" />
