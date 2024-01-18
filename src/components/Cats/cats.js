@@ -1,7 +1,7 @@
 export default [
   {
     id: "5f689a2c09b16000e9a2f47b",
-    title: "Барбарис",
+    title: " Мишка",
     imgUrl: {
       main: "/img/catsInfo/1.jpg",
       one: "/img/catsInfo/1.1.jpg",
@@ -12,7 +12,7 @@ export default [
       // six: "/img/catsInfo/1.6.jpg",
       six: "/img/8-8wkvt6nnkAZsD7Q.png",
     },
-    descr: "  Хижий для ворогів, ласкавий та м’якесенький до своїх.",
+    descr: "Киця з роду котів-талісманів. Несе удачу та затишок в дім.  ",
     rating: 3,
     price: 1667,
     location: {
@@ -26,7 +26,7 @@ export default [
   },
   {
     id: "5f689a2c09b16000e9a2f47d",
-    title: "Мишка",
+    title: "Барбарис",
     imgUrl: {
       main: "/img/catsInfo/2.jpg",
       one: "/img/catsInfo/2.1.jpg",
@@ -37,7 +37,7 @@ export default [
       six: "/img/catsInfo/2.6.jpg",
     },
 
-    descr: " Киця з роду котів-талісманів. Несе удачу та затишок в дім.",
+    descr: " Хижий для ворогів, ласкавий та м’якесенький до своїх.",
     rating: 3,
     price: 2740,
     location: {
