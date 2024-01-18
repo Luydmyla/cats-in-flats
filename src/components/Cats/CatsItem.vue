@@ -11,8 +11,10 @@
                         </p>
                       </div> -->
                         <div class="img-wrap">
-                               <img :src="'/cats-in-flats' + imgSrc" :alt="title" />
+                             
+                        <img :src="'/cats-in-flats' + imgSrc" :alt="title" />
                         </div>
+                          <Rating :rating="rating" />
                         <div class="item-footer">
                               <h3 class="item-title">{{ title }}</h3>
                               <p class="item-descr">
@@ -30,10 +32,12 @@
 
 <script>
 import Container from "../shared/Container.vue";
+import Rating from "../shared/StarRating.vue";
     export default {
     name: "CatsItem",
     components: {
-            Container,
+      Container,
+      Rating,
     },
         props: {
         id: {
@@ -48,10 +52,10 @@ import Container from "../shared/Container.vue";
             type: String,
             default: "",
         },
-        // rating: {
-        //     type: Number,
-        //     default: 0,
-        // },
+        rating: {
+            type: Number,
+            default: 0,
+        },
         // price: {
         //     type: Number,
         //     required: true,
@@ -67,15 +71,11 @@ import Container from "../shared/Container.vue";
 <style lang="scss" scoped>
 @media (min-width: 280px) {
 .cat-item{
-                /* flex-basis: calc((100% - 80px) / 3); */
-                  /* width: calc((100% - 80px) / 3); */
-                /* height: 360px; */
                 margin-bottom: 8px;
                 overflow: hidden;
                 border-top-right-radius: 16px;
                 border-top-left-radius: 16px;
-                   box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
-                /* background-color: #d3d4c6; */
+                box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
                 background-color: #e7ecf2;
                 transition: 500ms linear;
   &:hover,
@@ -195,10 +195,6 @@ object-fit:contain;
            
             .item-footer{
               padding: 16px;
-/* padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 16px;
-padding-right: 16px; */
             }
             .item-title{
                 margin-bottom: 8px;

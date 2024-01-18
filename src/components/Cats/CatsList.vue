@@ -5,12 +5,13 @@
        <Title  text=" Ці маленькі пухнасті комочки щастя готові подарувати радість в твоїй оселі та прийняти твою любов і піклування"></Title>
     <div class="cats-list">
    
-        <CatsItem v-for="{id, descr, title, imgUrl } in items"
+        <CatsItem v-for="{id, descr, title, imgUrl,rating } in items"
           :key="id"
             :descr="descr"
             :title="title"
             :imgSrc="imgUrl.main"
             :id="id"
+            :rating="rating"
         />
           <!-- <template v-for="cat in items">
             <slot name="cat" v-bind:cat="cat"></slot>

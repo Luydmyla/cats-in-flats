@@ -1,6 +1,7 @@
 <template>
         <div class="cats-info">
             <h2 class="cats-info-title">{{ items.title }}</h2>
+               <Rating :rating="items.rating" />
         <div class="cats-info-wrap">
        <!-- <div  v-if="items.imgUrl" class="cats-info-image"></div>        -->
      <div   class="cats-info-image">
@@ -52,6 +53,7 @@
 
 
 <script>
+import Rating from "../shared/StarRating.vue";
 // import cats from "../components/Cats/cats";
 export default {
     name: "CatsInfo",
@@ -80,7 +82,11 @@ export default {
     //         type: String,
     //         default: "",
     //     },
-    // },
+  // },
+     components: {
+    Rating,
+   
+  },
      props: {
         items: {
             type: Object,
