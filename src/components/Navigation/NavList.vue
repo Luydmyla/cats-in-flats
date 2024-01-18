@@ -6,9 +6,14 @@
                 <router-link to="/cats">
       <NavItem text="Обрати котика"></NavItem>
                 </router-link>
+   <router-link to="/donats">
+     <NavItem text="Задонатити котикам "></NavItem>
+   </router-link>
+   
+     <router-link to="/contacts">
+      <NavItem text=" Контакти "></NavItem>
+     </router-link>
   
-    <NavItem text="Задонатити котикам "></NavItem>
-    <NavItem text=" Контакти "></NavItem>
 
               </nav>
 </template>

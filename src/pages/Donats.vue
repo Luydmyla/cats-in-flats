@@ -1,6 +1,6 @@
 <template>
     <Container>
-        <Title text="Donats" />
+        <Title text="Ви можете допомогти цим пухнастикам, задонативши будь-яку суму на наш рахунок" />
     </Container>
 
 

@@ -1,7 +1,7 @@
 <template>
        
                   <div class="logo-wrap">
-                    <a href="/" class="logo-src">
+                    <a href="/cats-in-flats/" class="logo-src">
                       <!-- <img
                         src="../../src/assets/img/cat.svg"
                         class="logo-img"
