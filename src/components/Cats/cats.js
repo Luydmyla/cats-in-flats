@@ -1,7 +1,7 @@
 export default [
   {
     id: "5f689a2c09b16000e9a2f47b",
-    title: " Мишка",
+    title: "Кльопка ",
     imgUrl: {
       main: "/img/catsInfo/1.jpg",
       one: "/img/catsInfo/1.1.jpg",
@@ -26,7 +26,7 @@ export default [
   },
   {
     id: "5f689a2c09b16000e9a2f47d",
-    title: "Барбарис",
+    title: " Мишка ",
     imgUrl: {
       main: "/img/catsInfo/2.jpg",
       one: "/img/catsInfo/2.1.jpg",
@@ -125,7 +125,7 @@ export default [
   },
   {
     id: "5f689a2c09b16000e9a2f47f",
-    title: "corporis.",
+    title: "Долорес",
     imgUrl: {
       main: "/img/catsInfo/6.jpg",
       one: "/img/catsInfo/6.1.jpg",
@@ -150,7 +150,7 @@ export default [
   },
   {
     id: "5f689a2c09b16000e9a2f48c",
-    title: " dolorem ",
+    title: "  Барбарис ",
     imgUrl: {
       main: "/img/catsInfo/7.jpg",
       one: "/img/catsInfo/7.1.jpg",
@@ -175,7 +175,7 @@ export default [
   },
   {
     id: "5f689a2c09b16000e9a2f485",
-    title: "Nihil ",
+    title: "Кнопка ",
     imgUrl: {
       main: "/img/catsInfo/8.jpg",
       one: "/img/catsInfo/8.1.jpg",
@@ -499,53 +499,53 @@ export default [
       email: "Concepcion.Cummings32@yahoo.com",
     },
   },
-  {
-    id: "5f689a2c09b16498e9a2f47b",
-    title: "Фрис",
-    imgUrl: {
-      main: "/img/catsInfo/21.jpg",
-      one: "/img/catsInfo/21.1.jpg",
-      two: "/img/catsInfo/21.2.jpg",
-      three: "/img/catsInfo/21.3.jpg",
-      four: "/img/catsInfo/21.4.jpg",
-      five: "/img/catsInfo/21.5.jpg",
-      six: "/img/catsInfo/21.6.jpg",
-    },
-    descr: "  Котик 21",
-    rating: 7,
-    price: 3467,
-    location: {
-      city: "",
-    },
-    owner: {
-      name: "Bobbie",
-      phone: "582-740-2926",
-      email: "Pete_Carter53@hotmail.com",
-    },
-  },
-  {
-    id: "5f689a2c09b16498e9a2f47b",
-    title: "Фрис",
-    imgUrl: {
-      main: "/img/catsInfo/22.jpg",
-      one: "/img/catsInfo/22.1.jpg",
-      two: "/img/catsInfo/22.2.jpg",
-      three: "/img/catsInfo/22.3.jpg",
-      four: "/img/catsInfo/22.4.jpg",
-      five: "/img/catsInfo/22.5.jpg",
-      six: "/img/catsInfo/22.6.jpg",
-    },
-    descr: "  Котик 22",
-    rating: 7,
-    price: 3467,
-    location: {
-      city: "",
-    },
-    owner: {
-      name: "Bobbie",
-      phone: "582-740-2926",
-      email: "Pete_Carter53@hotmail.com",
-    },
-  },
+  // {
+  //   id: "5f689a2c09b16498e9a2f47b",
+  //   title: "Фрис",
+  //   imgUrl: {
+  //     main: "/img/catsInfo/21.jpg",
+  //     one: "/img/catsInfo/21.1.jpg",
+  //     two: "/img/catsInfo/21.2.jpg",
+  //     three: "/img/catsInfo/21.3.jpg",
+  //     four: "/img/catsInfo/21.4.jpg",
+  //     five: "/img/catsInfo/21.5.jpg",
+  //     six: "/img/catsInfo/21.6.jpg",
+  //   },
+  //   descr: "  Котик 21",
+  //   rating: 7,
+  //   price: 3467,
+  //   location: {
+  //     city: "",
+  //   },
+  //   owner: {
+  //     name: "Bobbie",
+  //     phone: "582-740-2926",
+  //     email: "Pete_Carter53@hotmail.com",
+  //   },
+  // },
+  // {
+  //   id: "5f689a2c09b16498e9a2f47b",
+  //   title: "Фрис",
+  //   imgUrl: {
+  //     main: "/img/catsInfo/22.jpg",
+  //     one: "/img/catsInfo/22.1.jpg",
+  //     two: "/img/catsInfo/22.2.jpg",
+  //     three: "/img/catsInfo/22.3.jpg",
+  //     four: "/img/catsInfo/22.4.jpg",
+  //     five: "/img/catsInfo/22.5.jpg",
+  //     six: "/img/catsInfo/22.6.jpg",
+  //   },
+  //   descr: "  Котик 22",
+  //   rating: 7,
+  //   price: 3467,
+  //   location: {
+  //     city: "",
+  //   },
+  //   owner: {
+  //     name: "Bobbie",
+  //     phone: "582-740-2926",
+  //     email: "Pete_Carter53@hotmail.com",
+  //   },
+  // },
 ];
 //  main: import.meta.url + "/img/catsInfo/22.jpg",

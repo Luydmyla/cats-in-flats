@@ -50,6 +50,7 @@
   @media (hover: hover) {
     a:hover {
       background-color: rgb(20, 157, 216, 0.2);
+        border-radius: 16px;
     }
   }
     body {

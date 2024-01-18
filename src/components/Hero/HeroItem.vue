@@ -127,6 +127,7 @@
     background-size: cover;
     margin-bottom: 60px;
     border-radius: 16px;
+    
  }
 .greeting{
     display: inline-flex;
@@ -137,13 +138,31 @@
     margin-bottom: 0;
     padding: 8px;
     border-radius: 16px;
-    background-color: rgb(234,236,234, 0.9);
     font-family: Montserrat;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 1.25px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
+    padding: 10px;
+   /* transition: background-color 2500ms linear; */
+
+    /* transition-property: background-color;
+  transition-duration: 1s; */
+  background-color: rgb(234,236,234, 0.9);
+    transition: transform 600ms linear,
+                 background-color 600ms linear;
+     &:hover,
+  &:focus {
+    background-color: #e7ecf2;
+    transform: scale(1.2);
+    transform-origin: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
         }
  .greeting-text{
     color: #33665b;
