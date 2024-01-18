@@ -32,11 +32,13 @@ export default {
 <style lang="scss" scoped>
 @media (min-width: 280px) {
 .nav{
+    /* width: 100%; */
     /* display: flex; */
-        align-items: center;
-            align-content: center;
+    /* flex-direction: column; */
+        /* align-items: center; */
+            /* align-content: center; */
     /* justify-content: center; */
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */   
     color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
         font-size: 14px;
