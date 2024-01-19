@@ -1,18 +1,9 @@
 <template>   
 <!-- <Container> -->
   <router-link :to="`/catsinfo/${$props.id}`"   class="cat-item">
-
-   
-                        <!-- <img src="../../assets/img/picture.jpg" alt="cat Барбарис" />
-                      <div class="item-footer">
-                        <h3 class="item-title">Барбарис</h3>
-                        <p class="item-descr">
-                          Хижий для ворогів, ласкавий та м’якесенький до своїх.
-                        </p>
-                      </div> -->
-                        <div class="img-wrap">
-                             
+                        <div class="img-wrap">         
                         <img :src="'/cats-in-flats' + imgSrc" :alt="title" />
+                        
                         </div>
                           <Rating :rating="rating" />
                         <div class="item-footer">
@@ -20,7 +11,12 @@
                               <p class="item-descr">
                                 {{ descr }}
                               </p>
-                        </div>
+                              <!-- <p class="icon-heart">
+                                💙💛 
+                                </p> -->
+                                
+                                  
+                        </div>   
      
   </router-link>
    
@@ -38,7 +34,8 @@ import Rating from "../shared/StarRating.vue";
     components: {
       Container,
       Rating,
-    },
+  },
+    
         props: {
         id: {
             type: String,
@@ -64,7 +61,8 @@ import Rating from "../shared/StarRating.vue";
             type: String,
             default: "",
         },
-    },
+  },
+ 
     }
 </script>
 
@@ -167,6 +165,7 @@ color: var(--GREY, #2C2C2C);
 }
 
 .img-wrap{
+     position: relative;
 width: 100%;
 display: flex;
 overflow: hidden;
@@ -174,7 +173,7 @@ overflow: hidden;
 }
             .img-wrap > img{
                 width: 100%;
-              
+           
                 /* height: 100%; */
 /* object-fit:contain; */
                         }
@@ -211,10 +210,7 @@ color: var(--GREY, #2C2C2C);
         overflow: hidden;
     letter-spacing: 0.5px;
             }
-
-
 }
-
 
 
 </style>

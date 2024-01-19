@@ -1,6 +1,17 @@
 <template>
         <div class="cats-info">
-            <h2 class="cats-info-title">{{ items.title }}</h2>
+            <h2 class="cats-info-title">{{ items.title }} 
+             <p class="icon-heart" @click="toggle">
+                                         Віддай своє сердечко цьому котику  
+                                          </p>
+            <p v-if="isVissible" class="icon-heart "  @click="toggle" >
+                                             💖
+                                              </p>
+              <p  v-if="!isVissible" class="icon-heart" @click="toggle">
+                                    🤍
+                                        </p>
+            </h2>
+             
                <Rating :rating="items.rating" />
         <div class="cats-info-wrap">
        <!-- <div  v-if="items.imgUrl" class="cats-info-image"></div>        -->
@@ -87,13 +98,27 @@ export default {
     Rating,
    
   },
+  data() {
+    return {
+      isVissible: false,
+    }
+  },
      props: {
         items: {
             type: Object,
              default: () => {},
             
         },
+  },
+     methods: {
+    
+    toggle() {
+      this.isVissible = !this.isVissible
     },
+    // onClick() {
+
+    // }
+  }
 
 }
 </script>
@@ -106,6 +131,9 @@ export default {
     align-items: center;
 }
 .cats-info-title{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
                 font-size: 28px;
                 font-style: normal;
                 font-weight: 700;
@@ -169,5 +197,23 @@ export default {
     display: flex;
     color: #50f030;
     width: 70%;
+}
+.icon-heart{
+  /* position: absolute;
+  top: 10px;
+  right: 15px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* width: 48px;
+  height: 48px; */
+  margin-left: 20px;
+  margin-top: 10px;
+   font-size: 32px;
+   color: blueviolet;
+
+}
+.ishidden{
+display: none;
 }
 </style>
