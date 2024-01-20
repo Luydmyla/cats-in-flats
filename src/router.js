@@ -46,6 +46,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory("/cats-in-flats"),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // всегда прокручивать до верха
+    return { top: 0 };
+  },
 });
 
 export default router;

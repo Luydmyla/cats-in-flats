@@ -45,7 +45,15 @@ export default {
     //         type: Array,
     //         default: () => [],
     //     },
-    // },
+  // },
+  //   mounted() {
+  //     this.scrollUp();
+  // },
+  // methods: {
+  //   scrollUp() {
+      
+  //   }
+  // }
 }
 </script>
 
