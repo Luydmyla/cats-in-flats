@@ -74,7 +74,7 @@ import Rating from "../shared/StarRating.vue";
                 border-top-right-radius: 16px;
                 border-top-left-radius: 16px;
                 box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
-                background-color: #e7ecf2;
+                background-color: #ece0ce;
                 transition: 500ms linear;
   &:hover,
   &:focus {
@@ -93,10 +93,9 @@ display: flex;
 overflow: hidden;
   height: 80%;
 }
-            .img-wrap > img{
-                width: 100%;
-              
-                /* height: 80%; */
+ .img-wrap > img{
+ width: 100%;
+           
 /* object-fit:cover; */
                         }
                        
@@ -151,7 +150,7 @@ color: var(--GREY, #2C2C2C);
                 border-top-left-radius: 16px;
                    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
                 /* background-color: #d3d4c6; */
-                background-color: #e7ecf2;
+                background-color: #fffcf1 ;
                 transition: 500ms linear;
   &:hover,
   &:focus {
