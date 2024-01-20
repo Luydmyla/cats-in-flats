@@ -7,23 +7,10 @@
             />
           </Container>
          
-           <p v-if="!filteredCats.length">
+           <p v-if="!filteredCats.length" class="text-info">
               По вашому запиту нічого не знайдено
             </p>
-      
           <CatsList v-else :items="filteredCats">
-           
-             <!-- <template v-slot:cat="{ cat }">
-                <CatsItem
-                  :key="cat.id"
-                  :id="cat.id"
-                  :descr="cat.descr"
-                  :price="cat.price"
-                  :rating="cat.rating"
-                  :imgSrc="cat.imgUrl"
-                />
-              </template> -->
-
           </CatsList>
 
   
@@ -104,5 +91,9 @@ export default {
     padding: 8px;
     /* margin-top: 40px; */
     background-color: #ece0ce ;
+}
+.text-info{
+    font-size: 60px;
+        text-align: center;
 }
 </style>

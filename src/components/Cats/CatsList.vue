@@ -37,8 +37,8 @@ import CatsItem from "./CatsItem.vue";
 @media (min-width: 280px) {
   .cats-list{
                 width: 100%;
-                /* display: flex; */
-                justify-content: space-between;
+                display: block;
+                /* justify-content: space-between; */
                 /* gap: 40px; */
                 margin-top: 10px;
                 margin-bottom: 10px;

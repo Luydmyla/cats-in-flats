@@ -1,6 +1,5 @@
 <template>
      <header class="container header">
-      
           <div>
             <a href="/cats-in-flats/" class="logo">
               <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
@@ -8,12 +7,10 @@
               <h2 class="logo-title">КотоХатка</h2>
             </a>
           </div>
-          <!-- <nav class="nav">
-            <a href="">Обрати котика</a>
-            <a href="">Задонатити котикам</a>
-            <a href="">Контакти</a>
-          </nav> -->
-          <NavList />
+         <!-- <p v-if="isMobile">
+          меню
+         </p> -->
+          <NavList  />
         </header>
 </template>
 
@@ -25,7 +22,20 @@ import NavList from "./Navigation/NavList.vue";
       components: {
           Logo,
         NavList,
-    },   
+  },  
+  // data() {
+  //   return {
+  //      isMobile :false
+  //   }
+  // }
+  // methods: {
+  //   chooseMedia() {
+  //     return {
+       
+  //       this.isMobile=true
+  //     }
+  //   }
+  // },
     }
 </script>
 
@@ -42,7 +52,7 @@ import NavList from "./Navigation/NavList.vue";
     justify-content: space-between;
     align-items: center;
     padding: 4px;
-    background-color: #e7ecf2;
+    background-color: #ece0ce;
      
 }
 .logo{
