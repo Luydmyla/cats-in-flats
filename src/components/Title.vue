@@ -44,7 +44,8 @@
                 height: 100%;
                 letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
-                  background-color:#c8b69e
+                  background-color:#c8b69e;
+                  margin-top: 20px;
             }
 }
 </style>

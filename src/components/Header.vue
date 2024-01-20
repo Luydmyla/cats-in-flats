@@ -32,7 +32,6 @@ import NavList from "./Navigation/NavList.vue";
 <style lang="scss" scoped>
 @media (min-width: 280px) {
 .container{
-    /* width: 960px; */
     padding-left: 8px;
     padding-right: 8px;
     margin-left: auto;
@@ -43,14 +42,14 @@ import NavList from "./Navigation/NavList.vue";
     justify-content: space-between;
     align-items: center;
     padding: 4px;
-     background-color: #e7ecf2;
+    background-color: #e7ecf2;
      
 }
 .logo{
     display: flex;
-        padding: 0px 2px;
-        align-items: center;
-        gap: 4px;
+    padding: 0px 2px;
+    align-items: center;
+    gap: 4px;
 }
 .logo-img {
     display: block;
@@ -62,15 +61,11 @@ font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    /* 166.667% */
     letter-spacing: 0.5px;
-    color: var(--ORANGE, #F07F2E);
-       color: #2b21f9;
-        border-radius: 16px;
+    border-radius: 16px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
-               padding: 10px;
-                background-color: #e7ecf2;
-                transition: 500ms linear;
+    padding: 10px;
+    transition: 500ms linear;
      &:hover,
   &:focus {
     transform: scale(1.08);
@@ -82,33 +77,10 @@ font-family: Montserrat;
   }
 
 }
-/* .nav{
-  
-        align-items: center;
-            align-content: center;
-    
-    color: var(--GREY, #2C2C2C);
-        font-family: Montserrat;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 14px;
-        letter-spacing: 0.5px;
-} */
-/* .nav a{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-basis: calc((100% - 8px) / 3);
-   
-} */
 }
 /* @media (min-width: 768px) {} */
 @media (min-width: 1024px) {
 .container{
-    /* width: 960px; */
     padding-left: 8px;
     padding-right: 8px;
     margin-left: auto;
@@ -118,14 +90,14 @@ font-family: Montserrat;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
-     background-color: #e7ecf2;
+    padding: 4px;
+    background-color: #ece0ce ;
 }
 .logo{
     display: flex;
-        padding: 0px 2px;
-        align-items: center;
-        gap: 8px;
+    padding: 0px 2px;
+    align-items: center;
+    gap: 8px;
     
     
 }
@@ -139,30 +111,8 @@ font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
-    /* 166.667% */
     letter-spacing: 0.5px;
-    /* color: var(--ORANGE, #F07F2E); */
-        /* color: #149dd8 ; */
-          color: #2b21f9;
+    color:#4b523f ;
 }
-/* .nav{
-        display: flex;
-        align-items: flex-start;
-        gap: 40px;
-        color: var(--GREY, #2C2C2C);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px;
-       
-        letter-spacing: 0.5px;
-} */
-
-
-
 }
-
-
-
 </style>

@@ -1,10 +1,6 @@
 <template>
-   <!-- <Container> -->
-  
-    <slot name="title"></slot>
-       <Title  text=" Ці маленькі пухнасті комочки щастя готові подарувати радість в твоїй оселі та прийняти твою любов і піклування"></Title>
+    <slot name="title"></slot> 
     <div class="cats-list">
-   
         <CatsItem v-for="{id, descr, title, imgUrl,rating } in items"
           :key="id"
             :descr="descr"
@@ -23,11 +19,10 @@
 <script>
 import Container from "../shared/Container.vue";
 import CatsItem from "./CatsItem.vue";
-import Title from "../Title.vue";
 
     export default {
        name: "CatsList",
-    components: { Container, CatsItem, Title },
+    components: { Container, CatsItem },
 
     props: {
         items: {
@@ -57,7 +52,7 @@ import Title from "../Title.vue";
                 flex-wrap: wrap;
                 justify-content: space-between;
                 gap: 40px;
-                margin-top: 40px;
+                /* margin-top: 40px; */
                 margin-bottom: 60px;
                   padding-left: 8px;
     padding-right: 8px;

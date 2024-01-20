@@ -120,8 +120,7 @@
     height: 60vh;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-    background-color: #7EA6A7;
+    flex-shrink: #c8b69e ;
     background: url(../../../public/img/hero2.png)  no-repeat ;
     background-position: top;
     background-size: cover;
@@ -151,12 +150,13 @@
 
     /* transition-property: background-color;
   transition-duration: 1s; */
-  background-color: rgb(234,236,234, 0.9);
+  /* background-color: rgb(234,236,234, 0.9); */
+   background-color: rgb(255,252,241, 0.8);
     transition: transform 600ms linear,
                  background-color 600ms linear;
      &:hover,
   &:focus {
-    background-color: #e7ecf2;
+    background-color: rgb(255,252,241);
     transform: scale(1.2);
     transform-origin: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,

@@ -37,7 +37,7 @@ textAfter: {
     letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
                 margin-top: 8px;
-                background-color: #e7ecf2;
+                background-color: #ece0ce ;
                 padding: 8px;
             }
 }
@@ -53,7 +53,7 @@ textAfter: {
     letter-spacing: 0.5px;
     color: var(--GREY, #2C2C2C);
     margin-top: 8px;
-    background-color: #e7ecf2;
+    background-color:#ece0ce ;
     padding: 10px;
             }
 }

@@ -50,8 +50,8 @@ export default {
     display: inline-block;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
-    background: #ff662d;
-    color: #fff;
+    background: #fffcf1;
+    color: #4b523f;
     cursor: pointer;
     min-width: 220px;
     border: 1px solid transparent;

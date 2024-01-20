@@ -2,9 +2,9 @@
     <slot name="title"></slot>
                 <Title  text="Щасливі котики, які вже знайшли свій дім"></Title>
                 <GalleryText textPre="Скільки ніжності в цих обіймах, поглянь!" textAfter="Ти також можеш бути на місці цих щасливих людей"></GalleryText>
-              <div class="galllery">
+                <div class="galllery">
                 <GalleryItem  v-for="{ id, imgUrl, imgUrlBig } in items"
-            :key="id"
+              :key="id"
               :imgHref="imgUrlBig"
               :imgSrc="imgUrl" />
               </div>

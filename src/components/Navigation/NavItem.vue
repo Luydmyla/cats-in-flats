@@ -37,12 +37,12 @@ a{
     flex-basis: fit-content;
     font-size: 26px;
     font-weight:bold;
-    color: #2b21f9;
+    color: #4b523f ;
     border-radius: 16px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
-               padding: 10px;
-                background-color: #e7ecf2;
-                transition: 500ms linear;
+    padding: 10px;
+    /* background-color: #e7ecf2; */
+    transition: 500ms linear;
      &:hover,
   &:focus {
     transform: scale(1.05);

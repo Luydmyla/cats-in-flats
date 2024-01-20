@@ -1,15 +1,18 @@
 <template>
-   
+     <Title  text=" Ці маленькі пухнасті комочки щастя готові подарувати радість в твоїй оселі та прийняти твою любов і піклування"></Title>
      <Container class="filtercontainer">
             <CatstsFilterForm
               @update:modelValue="filter"
               class="cats-filter"
             />
           </Container>
+         
            <p v-if="!filteredCats.length">
               По вашому запиту нічого не знайдено
             </p>
+      
           <CatsList v-else :items="filteredCats">
+           
              <!-- <template v-slot:cat="{ cat }">
                 <CatsItem
                   :key="cat.id"
@@ -32,21 +35,24 @@ import cats from "../components/Cats/cats.js";
 import CatsList from "../components/Cats/CatsList.vue";
 import Container from "../components/shared/Container.vue";
 import CatstsFilterForm from "../components/Cats/CatstsFilterForm.vue"
+import Title from "../components/title.vue";
 export default {
     name: "Cats",
     components: {
         CatstsFilterForm,
         CatsList,
-            Container,
+        Container,
+            Title
         },
          data() {
         return {
             cats: cats,
             selected :"name",
-
             filters: {
               city: "",
-              price:  0,
+                price: 0,
+                sex: "",
+              color: ""
          }  
         }
     },
@@ -58,11 +64,14 @@ export default {
         },
     },
     methods: {
-    filter({ city, price }) {
+    filter({ city, price, sex,color }) {
  
     this.filters.city = city;
             this.filters.price = price;
-       console.log(this.filters.city, this.filters.price);
+             this.filters.sex = sex;
+            this.filters.color = color;
+
+    //    console.log(this.filters.city, this.filters.price);
 },    
     handleItemClick() {
    
@@ -92,7 +101,8 @@ export default {
 .filtercontainer{
     display: flex;
     justify-content: center;
+    padding: 8px;
     /* margin-top: 40px; */
-    background-color: blue;
+    background-color: #ece0ce ;
 }
 </style>

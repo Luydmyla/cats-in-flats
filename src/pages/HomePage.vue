@@ -1,7 +1,8 @@
 <template>
     <div>
-     <HeroItem title="Привіт, людино!" text="Бракує в житті шовкових лапок, м’якенького пухнастого
+        <HeroItem title="Привіт, людино!" text="Бракує в житті шовкових лапок, м’якенького пухнастого
                   животика, теплого муррркотіння й веселого розгардіяшу?" textFooter="Візьми собі котика!"/>
+        <Title  text=" Ці маленькі пухнасті комочки щастя готові подарувати радість в твоїй оселі та прийняти твою любов і піклування"></Title>
          <CatsList :items="actualCats" />
          
          <GalleryList :items="gallery"/>
@@ -11,6 +12,8 @@
 <script>
 import HeroItem from "../components/Hero/HeroItem.vue";
 import Title from "../components/Title.vue";
+
+
 import CatsList from "../components/Cats/CatsList.vue";
 import GalleryList from "../components/Gallery/GalleryList.vue";
 import cats from "../components/Cats/cats.js"

@@ -41,7 +41,7 @@ import AppHeader from "./components/Header.vue";
   flex-direction: column;
   min-height: 100vh;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
-   background: url(./assets/img/fon3.png) center repeat-y ; 
+   background: url(./assets/img/fon3.png) center repeat ; 
 }
 .content {
   flex-grow: 1;

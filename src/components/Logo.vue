@@ -1,20 +1,12 @@
 <template>
-       
                   <div class="logo-wrap">
                     <a href="/cats-in-flats/" class="logo-src">
-                      <!-- <img
-                        src="../../src/assets/img/cat.svg"
-                        class="logo-img"
-                        width="24"
-                        height="24"
-                      /> -->
                       <img
                           src="../../src/assets/img/catIcon.svg"
                           class="logo-img"
                           width="48"
                           height="48"
-                          fill="orange"
-                         
+                          fill="orange"             
                         />
                     </a>
                   </div>
@@ -51,11 +43,11 @@ export default {
   /* width: 64px;
   height: 64px; */
   display: flex;
-  background:  rgb(227, 135, 50, 0.2);
+  /* background:  rgb(227, 135, 50, 0.2); */
    border-radius: 16px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
                padding: 10px;
-                background-color: #e7ecf2;
+                background-color:#fffcf1;
                 transition: 500ms linear;
      &:hover,
   &:focus {
