@@ -82,11 +82,9 @@ export default {
     position: relative;
     display: inline-flex;
     width: 50%;
-    /* margin-bottom: 20px; */
 }
 .custom-input {
     height: 40px;
-    /* max-width: 220px; */
     width:100%; 
     font-size: 18px;
     outline: none;
@@ -100,8 +98,6 @@ export default {
     transition: 500ms linear;
      &:hover,
   &:focus {
-    /* transform: scale(1.05); */
-    /* transform-origin: center; */
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
       rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
@@ -131,28 +127,22 @@ export default {
     position: relative;
     display: inline-flex;
     width: 100%;
-    /* margin-bottom: 20px; */
 }
 .custom-input {
     height: 40px;
-    /* max-width: 220px; */
-    width: 100%; 
+    max-width: 220px;
     font-size: 18px;
     outline: none;
     line-height: inherit;
-    padding: 8px 15px;
-    /* font-size: 26px; */
     font-weight:bold;
     border: 1px solid #9b7e6a;
     color: #4b523f ;
     border-radius: 16px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
     padding: 10px;
-    /* background-color: #e7ecf2; */
     transition: 500ms linear;
      &:hover,
   &:focus {
-     /* border: 2px solid grey; */
     transform: scale(1.05);
     transform-origin: center;
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -101,6 +101,7 @@ export default {
   data() {
     return {
       isVissible: false,
+      heartRating:0,
     }
   },
      props: {
@@ -110,10 +111,36 @@ export default {
             
         },
   },
+  // computed: {
+  //   changeHeartRating() {
+  //     if (this.isVissible === true) {
+  //       this.heartRating = this.heartRating + 1;
+  //       console.log(this.heartRating)
+  //     }
+  //     else {
+  //       this.heartRating = this.heartRating - 1;
+  //     }
+  //   },
+  // },
      methods: {
-    
+    mounted() {
+      console.log(this.items.rating)
+    },
     toggle() {
-      this.isVissible = !this.isVissible
+         this.isVissible = !this.isVissible
+          //  console.log(this.items.rating)
+
+        //  console.log(this.heartRating)
+         if(this.isVissible===true)
+         {
+          //  this.heartRating = this.heartRating + 1;
+           this.items.rating = this.items.rating + 1;
+           console.log(this.items.rating)
+         }
+         else {
+           this.heartRating = this.heartRating - 1;
+         this.items.rating = this.items.rating - 1;
+      }
     },
     // onClick() {
 

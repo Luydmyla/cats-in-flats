@@ -143,6 +143,7 @@ export default {
 @media (min-width: 1024px) {
 .form {
     display: flex;
+     flex-wrap:nowrap ;
     justify-content: center;
     &__select {
         margin-right: 16px;
