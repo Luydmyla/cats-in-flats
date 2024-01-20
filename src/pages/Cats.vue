@@ -35,7 +35,7 @@ import cats from "../components/Cats/cats.js";
 import CatsList from "../components/Cats/CatsList.vue";
 import Container from "../components/shared/Container.vue";
 import CatstsFilterForm from "../components/Cats/CatstsFilterForm.vue"
-import Title from "../components/title.vue";
+import Title from "../components/Title.vue";
 export default {
     name: "Cats",
     components: {
