@@ -25,6 +25,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-basis: calc((100% - 8px) / 3);
+     color: #4b523f ;
 }
 }
 @media (min-width: 1024px) {
