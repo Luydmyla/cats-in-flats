@@ -1,5 +1,7 @@
 <template>
+  
     <div class="hero-item">
+         
     <div class="greeting">
      <!-- <h1 class="greeting-title">Привіт, людино</h1>
                     <p class="greeting-text">
@@ -19,12 +21,18 @@
                          {{ textFooter }}
                     </p>
     </div>
+ 
 </div>
+     
 </template>
 
 <script>
+
     export default {
     name: "HeroItem",
+    components: {
+       
+    },
     props: {
         title: {
             type: String,
@@ -137,7 +145,7 @@
     background: url(../../../public/img/hero2.png)  no-repeat ;
     background-position: top;
     background-size: cover;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     border-radius: 16px;
     
  }

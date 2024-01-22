@@ -1,25 +1,35 @@
 <template>
-     <header class="container header">
-          <div>
-            <a href="/cats-in-flats/" class="logo">
-              <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
-      <Logo></Logo>
-              <h2 class="logo-title">КотоХатка</h2>
-            </a>
-          </div>
-         <!-- <p v-if="isMobile">
+
+     <header class=" header">
+     <Container >   
+      <div class="header-containrt">
+   <a href="/cats-in-flats/" class="logo">
+                <!-- <img src="../assets/img/cat.svg" class="logo-img" width="24" height="24" /> -->
+                <Logo></Logo>
+                <h2 class="logo-title">КотоХатка</h2>
+              </a>
+        
+           <!-- <p v-if="isMobile">
           меню
          </p> -->
-          <NavList  />
+            <NavList  /> 
+
+      </div>
+           
+         </Container> 
+
         </header>
+         
 </template>
 
 <script>
+import Container from "./shared/Container.vue";
 import Logo from "./Logo.vue";
 import NavList from "./Navigation/NavList.vue";
     export default {
     name: "Header", 
-      components: {
+  components: {
+         Container,
           Logo,
         NavList,
   },  
@@ -41,19 +51,24 @@ import NavList from "./Navigation/NavList.vue";
 
 <style lang="scss" scoped>
 @media (min-width: 280px) {
-.container{
+/* .container{
     padding-left: 8px;
     padding-right: 8px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 .header{
+ 
+    /* padding: 4px; */
+    background-color: #ece0ce;
+     
+}
+.header-containrt{
+ width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px;
-    background-color: #ece0ce;
-     
+
 }
 .logo{
     display: flex;
@@ -91,18 +106,24 @@ font-family: Montserrat;
 }
 /* @media (min-width: 768px) {} */
 @media (min-width: 1024px) {
-.container{
+/* .container{
     padding-left: 8px;
     padding-right: 8px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 .header{
+  width: 100%;
+   
+    background-color: #ece0ce ;
+}
+
+.header-containrt{
+ width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px;
-    background-color: #ece0ce ;
+
 }
 .logo{
     display: flex;

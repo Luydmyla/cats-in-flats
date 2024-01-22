@@ -5,7 +5,7 @@
         <CustomSelect :items="colors" placeholder="Колір" v-model="color" class="form__select" />
         <CustomInput v-model="price" placeholder="Вік, від" error-message="Поле не повинно бути порожнім" :rules="rules" />
         <SubmitButton type="submit" class="form__submit">Обрати котика</SubmitButton>
-        <SubmitButton @click="reset" type="button" class="btn__back">Назад до всіх котиків</SubmitButton>
+        <SubmitButton @click="resetForm" type="button" class="btn__back">Назад до всіх котиків</SubmitButton>
     </form>
 </template>
 
@@ -70,13 +70,21 @@ export default {
         handleSubmit() {
             this.$emit("update:modelValue", { city: this.city, price: this.price, sex: this.sex, color: this.color });   
         },
-        reset() {
-            this.$emit("update:modelValue", {
+        resetForm() {this.$emit("update:modelValue",{
                 city: "",
                 price :"",
                 sex : "",
                 colors: ""
-            });         
+        }, 
+        );  
+           
+            // this.cities.label=""; 
+           console.log(this)
+            // this.city.reset();
+            // this.price.label = "";
+            // this.sex.label = "";
+            // this.color.label = "";     
+            // this.items.label = "";
         // console.log(city, price, sex,colors)
         }
     },

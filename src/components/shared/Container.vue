@@ -11,35 +11,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media screen and (min-width: 280px) {
 .container {
-    display: flex;
-/* width: 960px; */
-    /* padding-left: 8px; */
-    /* padding-right: 8px; */
+    /* display: flex; */
+    padding-left: 8px;
+    padding-right: 8px;
     margin-left: auto;
     margin-right: auto;
-
-
-
-    /* max-width: 1110px; */
-    /* margin: 0 auto; */
+    max-width: 280px;
+   }
 }
 
+ @media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }}
 
-}
-/* @media (min-width: 768px) {} */
-@media (min-width: 1024px) {
+ @media screen and (min-width: 1024px) {
 .container {
-    display: flex;
-    /* padding-left: 8px; */
-    /* padding-right: 8px; */
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
+    max-width: 1024px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
-
-
 }
-
-
 </style>

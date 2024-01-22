@@ -1,6 +1,8 @@
 <template>
     <select @change="onSelect" class="custom-select">
-        <option v-for="item in formatedItems" :key="item.value" :value="item.value" :selected="item.selected">
+        <option v-for="item in formatedItems" :key="item.value" :value="item.value"
+         :selected="item.selected"
+         >
             {{ item.label }}
         </option>
     </select>
@@ -21,6 +23,7 @@ export default {
         },
         reset() {
             this.$emit("update:modelValue", '');
+         
         }
     },
     computed: {

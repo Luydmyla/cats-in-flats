@@ -24,7 +24,7 @@
                 line-height: 20px;
                 text-align: center;
                 width: 100%;
-                height: 100%;
+                /* height: 100%; */
                 padding: 10px;
                 letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
@@ -41,7 +41,7 @@
                 line-height: 40px;
                 text-align: center;
                 width: 100%;
-                height: 100%;
+                /* height: 100%; */
                 letter-spacing: 0.5px;
                 color: var(--GREY, #2C2C2C);
                   background-color:#c8b69e;
