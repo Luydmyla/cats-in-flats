@@ -36,7 +36,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.star-rating {
+@media (min-width: 320px) {.star-rating {
+    position: relative;
+    display: inline-flex;
+
+    &__colored {
+        display: inline-flex;
+        position: absolute;
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+}
+
+.star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+    flex-shrink: 0;
+
+    &--colored {
+        background: url("/img/star-yellow.svg") center no-repeat;
+    }
+
+    &--outlined {
+        background: url("/img/star-outlined.svg") center no-repeat;
+    }
+}}
+@media (min-width: 1024px) {
+    .star-rating {
     position: relative;
     display: inline-flex;
 
@@ -66,4 +97,6 @@ export default {
         background: url("/img/star-outlined.svg") center no-repeat;
     }
 }
+}
+
 </style>

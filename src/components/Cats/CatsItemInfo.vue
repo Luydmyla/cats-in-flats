@@ -151,6 +151,103 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media (min-width: 320px) {
+  .cats-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cats-info-title{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                letter-spacing: 0.5px;
+                color:  #f04730;
+                  background-color:#c8ec6f
+}
+.cats-info-wrap{
+    display: flex;
+    width: 100%;
+}
+.image-poster{
+ background-color: #c8ec6f;
+}
+.cats-info-image{
+   width: 50%;
+   /* height: 50%; */
+   
+}
+.cats-info-image img{
+   /* width: 50%; */
+   height: 400px;
+   
+}
+.cats-info-table{
+    display: flex;
+        align-items: center;
+    background-color: aliceblue;
+    width: 50%;
+    padding: 8px;
+}
+.cats-info-table table{
+    /* background-color: aliceblue; */
+    width: 100%;
+}
+.info-table-tr{
+    display: flex;
+  
+}
+.info-table-th{
+     font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+    display: flex;
+    color: #f04730;
+      width: 30%;
+}
+.info-table-td{
+ font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: start;
+    display: flex;
+    color: #50f030;
+    width: 70%;
+}
+.icon-heart{
+  /* position: absolute;
+  top: 10px;
+  right: 15px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* width: 48px;
+  height: 48px; */
+  margin-left: 20px;
+  margin-top: 10px;
+   font-size: 32px;
+   color: blueviolet;
+
+}
+.ishidden{
+display: none;
+}
+}
+
+/* @media (min-width: 768px) {} */
+@media (min-width: 1024px) {
 .cats-info{
     width: 100%;
     display: flex;
@@ -243,4 +340,7 @@ export default {
 .ishidden{
 display: none;
 }
+
+}
+
 </style>

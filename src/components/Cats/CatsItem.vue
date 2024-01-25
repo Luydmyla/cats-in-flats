@@ -67,7 +67,7 @@ import Rating from "../shared/StarRating.vue";
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .cat-item{
   display: block;
   width: 100%;
@@ -139,6 +139,7 @@ height: 80%;
 .cat-item{
             
                   width: calc((100% - 120px) / 4);
+                  height: 360px;
                 margin-bottom: 8px;
                 overflow: hidden;
                 border-top-right-radius: 16px;

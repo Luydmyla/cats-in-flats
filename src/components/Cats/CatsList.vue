@@ -34,7 +34,7 @@ import CatsItem from "./CatsItem.vue";
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
   .cats-list{
                 width: 100%;
                 display: block;

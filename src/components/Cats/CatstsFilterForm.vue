@@ -94,7 +94,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
     .form {
     display: flex;
     flex-wrap: wrap ;

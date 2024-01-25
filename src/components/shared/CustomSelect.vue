@@ -38,7 +38,7 @@ export default {
 
 <style lang="scss" scoped>
 /* @import "../../assets/scss/variables"; */
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .custom-select {
     height: 40px;
     max-width: 180px;

@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 a{
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-basis: fit-content;
-    font-size: 26px;
+    font-size: 22px;
     font-weight:bold;
     color: #4b523f ;
     border-radius: 16px;

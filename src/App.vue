@@ -36,7 +36,19 @@ import Container from "./components/shared/Container.vue";
 </template>
 
 <style  lang="scss" scoped >
-/* @media (min-width: 280px) {} */
+@media (min-width: 320px) {
+#app {
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+   background: url(./assets/img/fon3.png) center repeat ; 
+}
+.content {
+  flex-grow: 1;
+}
+}
 /* @media (min-width: 768px) {} */
 @media (min-width: 1024px) {
 #app {

@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
   .footer {
       background-color:#c8b69e;
       padding-top: 4px;

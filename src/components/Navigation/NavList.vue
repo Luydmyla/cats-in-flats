@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .nav{
     color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
@@ -38,7 +38,7 @@ export default {
     .nav{
         display: flex;
         align-items: flex-start;
-        gap: 40px;
+        /* gap: 40px; */
         color: var(--GREY, #2C2C2C);
         font-family: Montserrat;
         font-size: 24px;

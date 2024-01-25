@@ -77,7 +77,7 @@ export default {
 
 <style lang="scss" scoped>
 /* @import "../../assets/scss/variables"; */
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .wrapper-input {
     position: relative;
     display: inline-flex;

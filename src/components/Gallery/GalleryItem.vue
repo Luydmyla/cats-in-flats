@@ -41,7 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .item{
     width: 100%;
     height: 80%;

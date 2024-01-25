@@ -52,7 +52,7 @@
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .hero-item{
     display: flex;  
         height: 60vh;

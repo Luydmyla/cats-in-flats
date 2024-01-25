@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 320px) {
 .container {
     /* display: flex; */
     padding-left: 8px;

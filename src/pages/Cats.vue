@@ -82,6 +82,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media (min-width: 320px) {
 .apartments-filter {
   margin-bottom: 40px;
 }
@@ -96,4 +97,23 @@ export default {
     font-size: 60px;
         text-align: center;
 }
+}
+/* @media (min-width: 768px) {} */
+@media (min-width: 1024px) {
+.apartments-filter {
+  margin-bottom: 40px;
+}
+.filtercontainer{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    /* margin-top: 40px; */
+    background-color: #ece0ce ;
+}
+.text-info{
+    font-size: 60px;
+        text-align: center;
+}
+}
+
 </style>

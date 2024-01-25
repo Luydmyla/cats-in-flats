@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
     .social-item a {
         display: flex;
         justify-content: center;

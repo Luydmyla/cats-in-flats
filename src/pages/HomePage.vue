@@ -49,24 +49,13 @@ import gallery from "../components/Gallery/gallery";
             console.log([cats[0], cats[1], cats[2]])
             return ([cats[0], cats[1], cats[2], cats[3]] )
         },
-        // filterByRating(cats) {
-        //     const bestCats = [];
-        //     console.log(bestCats)
-        //       console.log(cats)
-        //     cats.map((cat) => {
-        //           console.log(cat.rating)
-        //         if (cat.rating > 3) {
-        //             bestCats.push(cat) 
-        //             console.log(bestCats)  
-        //         }
-        //     });     
-        //     console.log(bestCats[0], bestCats[1], bestCats[2])
-        //     return [bestCats[0], bestCats[1], bestCats[2]] 
-        // },
+       
     }
     }
 </script>
 
 <style lang="scss" scoped>
-
+@media (min-width: 320px) {}
+/* @media (min-width: 768px) {} */
+@media (min-width: 1024px) {}
 </style>

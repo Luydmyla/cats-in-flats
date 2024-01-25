@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media (min-width: 320px) {
 .error {
      background-color: #fff;
     &__title {
@@ -18,4 +19,18 @@ export default {
         text-align: center;
     }
 }
+
+}
+/* @media (min-width: 768px) {} */
+@media (min-width: 1024px) {
+.error {
+     background-color: #fff;
+    &__title {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+}
+
 </style>

@@ -26,7 +26,7 @@ textAfter: {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 .section-text{
     font-family: Montserrat;
     font-size: 16px;

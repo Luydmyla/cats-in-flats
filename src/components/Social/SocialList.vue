@@ -1,41 +1,14 @@
 <template>
-          <!-- <section section class="social" > -->
+          
                   <!-- <p class="social-text">Соцмережі</p> -->
                   <ul class="social-links">
 <SocialItem href="/img/icons.svg#icon-instagram"/>
     <SocialItem href="/img/icons.svg#icon-facebook"/>
     <SocialItem href="/img/icons.svg#icon-youtube"/>
     <SocialItem href="/img/icons.svg#icon-tiktok"/>
-                    <!-- <li class="social-item">
-                      <a href="">
-                        <svg>
-                          <use href="../../src/assets/img/icons.svg#icon-instagram"></use>
-                        </svg>
-                      </a>
-                    </li> -->
-                    <!-- <li class="social-item">
-                      <a href="">
-                        <svg>
-                          <use href="../../src/assets/img/icons.svg#icon-facebook"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="social-item">
-                      <a href="">
-                        <svg>
-                          <use href="../../src/assets/img/icons.svg#icon-youtube"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="social-item">
-                      <a href="">
-                        <svg>
-                          <use href="../../src/assets/img/icons.svg#icon-tiktok"></use>
-                        </svg>
-                      </a>
-                    </li> -->
+                  
                   </ul>
-                <!-- </section > -->
+             
 </template>
 
 <script>
@@ -49,7 +22,7 @@ import SocialItem from './SocialItem.vue';
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: 280px) {
+@media (min-width: 320px) {
 /* .social-text{
 color: var(--WHITE, #FFF);
     font-family: Montserrat;

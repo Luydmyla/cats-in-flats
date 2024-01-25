@@ -46,14 +46,7 @@ export default {
     //         default: () => [],
     //     },
   // },
-  //   mounted() {
-  //     this.scrollUp();
-  // },
-  // methods: {
-  //   scrollUp() {
-      
-  //   }
-  // }
+ 
 }
 </script>
 
