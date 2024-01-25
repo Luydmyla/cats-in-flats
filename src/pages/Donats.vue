@@ -16,7 +16,7 @@
 <script>
 import Title from '../components/Title.vue';
 import Container from '../components/shared/Container.vue';
-import NavItem from '../components/Navigation/Navitem.vue';
+import NavItem from '../components/Navigation/NavItem.vue';
 export default {
   
     name: "DonatsPage",
